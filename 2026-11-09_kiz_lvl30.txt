@@ -1,0 +1,695 @@
+# ForeverCharacterExport 0.3.0 | WoW 1.60.1 (build 70862, interface 16001)
+# captured 2026-11-09 13:39:03 (client local) | epoch 1794231543
+# addon runtime-verified: false
+# tags: <empty> = the API answered with a real empty value | <not_collected: why> = could not be read, NOT proof of none | <unsupported>/<restricted>/<error> = see reason | [stale ...] = saved earlier, not live
+
+## character  [api ok=67 empty=0 not_read=2]
+-- identity
+name: Kiz
+realm: CAMWOW EU4 Realm 7 PvE
+realm (normalized): CAMWOWEU4Realm7PvE
+race: Undead (token Scourge, id 5)
+class: Paladin (token PALADIN, id 2)
+sex: 2 (raw UnitSex; the declared enum is 0=Male 1=Female 2=None 3=Both 4=Neutral, older clients use 2=Male 3=Female; mapping unverified on this build)
+faction: Horde (localized Horde)
+level: 30
+game locale: enUS
+-- experience and money
+xp: 2499 / 47400 (5.27%)
+xp to next level: 44901
+rested xp: 112 (0.24% of this level)
+resting: false
+money: 4g 59s 54c
+money (raw copper): 45954
+-- location
+zone: Hillsbrad Foothills
+subzone: Tarren Mill
+real zone: Hillsbrad Foothills
+map ID: 1424
+map name: Hillsbrad Foothills (type 3, parent map 1415)
+map position: x=62.24 y=21.59 (percent of the map above)
+bind location (hearthstone): Undercity
+-- vitals
+health: <restricted: API returned a secret or inaccessible value [UnitHealth]>
+health max: 1026
+primary power type: 0 (token MANA)
+primary power: <restricted: API returned a secret or inaccessible value [UnitPower]>
+primary power max: 1157
+-- guild
+in guild: true
+guild: Whose Gnome Is It Anyway | rank Initiate (rank index 5; 0 is the highest rank) | realm CAMWOWEU4Realm3PvE
+-- combat state
+in combat (lockdown): false
+in combat (unit): false
+-- played time
+played total: 2d 0h 47m 20s (175640 seconds) [live: TIME_PLAYED_MSG received this session, 48s ago]
+played this level: 0d 0h 25m 12s (1512 seconds) [live: TIME_PLAYED_MSG received this session, 48s ago]
+played request: requested at login
+-- primary stats (UnitStat: effective, base, posBuff, negBuff)
+strength: effective=99 base=99 posBuff=45 negBuff=0 [UnitStat index 1 via LE_UNIT_STAT_STRENGTH]
+agility: effective=51 base=51 posBuff=15 negBuff=0 [UnitStat index 2 via LE_UNIT_STAT_AGILITY]
+stamina: effective=84 base=84 posBuff=30 negBuff=0 [UnitStat index 3 via LE_UNIT_STAT_STAMINA]
+intellect: effective=49 base=49 posBuff=11 negBuff=0 [UnitStat index 4 via LE_UNIT_STAT_INTELLECT]
+spirit: effective=68 base=68 posBuff=21 negBuff=0 [UnitStat index 5 via LE_UNIT_STAT_SPIRIT]
+-- attack and armor
+armor: effective=1706 baseline=454 real=1706 bonus=1252
+defense skill: base=142 modifier=0
+melee attack power: effective=372 base=268 posBuff=104 negBuff=0
+ranged attack power: effective=64 base=0 posBuff=64 negBuff=0
+melee damage: mainhand 155.88-192.98, offhand 27.07-27.07, physical bonus +0/0, multiplier 1
+ranged damage: 0-0, speed 0, bonus +0/0, multiplier 1
+attack speed: mainhand=2.90 offhand=<nil> ranged=<nil>
+-- crit, hit, haste
+crit melee: 9.03%
+crit ranged: 0.63%
+crit spell: 11.03%
+hit melee: 0.00% (rating bonus 0.00% + modifier 0.00%)
+hit ranged: 0.00% (rating bonus 0.00% + modifier 0.00%)
+hit spell: 0.00% (rating bonus 0.00% + modifier 0.00%)
+haste melee: 0.00%
+haste ranged: 0.00% (base 0.00% + quiver 0.00%)
+haste spell: 0.00%
+expertise: mainhand=0.00% offhand=0.00% ranged=0.00%
+armor penetration: 0
+-- avoidance
+dodge: 5.15%
+parry: 9.68%
+block: 4.68%
+-- spell and mana
+spell power by school (school index=bonus): 2=0 3=0 4=0 5=0 6=0 7=0
+spell healing: 0
+spell penetration: 0
+mana regen: base=14.75 casting=0.00 (per second)
+
+## equipment  [api ok=139 empty=0 not_read=2]
+ranged slot shown: true
+ammo needed: true
+uses ammo: false
+has relic slot: true
+summary: equipped 13/19 slots, empty 6, unresolved 0; lowest durability 100% (Head); broken items 0; durability read for 9 items
+Head (HeadSlot, slot 1): Banded Helm of the Wolf (10408)  quality=2 (Uncommon)  ilvl=32  durability=60/60 (100%)  type=Armor/Mail INVTYPE_HEAD
+Neck (NeckSlot, slot 2): <empty slot>
+Shoulder (ShoulderSlot, slot 3): Glimmering Mail Pauldrons (6388)  quality=2 (Uncommon)  ilvl=30  durability=60/60 (100%)  type=Armor/Mail INVTYPE_SHOULDER
+Back (BackSlot, slot 15): Infiltrator Cloak of Power (7411)  quality=2 (Uncommon)  ilvl=31  durability=none reported (item may not have durability)  type=Armor/Cloth INVTYPE_CLOAK
+Chest (ChestSlot, slot 5): Mutant Scale Breastplate (6627)  quality=3 (Rare)  ilvl=23  durability=105/105 (100%)  type=Armor/Mail INVTYPE_CHEST
+Shirt (ShirtSlot, slot 4): Brawler's Harness (6125)  quality=1 (Common)  ilvl=1  durability=none reported (item may not have durability)  type=Armor/Miscellaneous INVTYPE_BODY
+Tabard (TabardSlot, slot 19): <empty slot>
+Wrist (WristSlot, slot 9): Phalanx Bracers of Power (7416)  quality=2 (Uncommon)  ilvl=31  durability=35/35 (100%)  type=Armor/Mail INVTYPE_WRIST
+Hands (HandsSlot, slot 10): Grip of Fear (271208)  quality=3 (Rare)  ilvl=22  durability=35/35 (100%)  type=Armor/Mail INVTYPE_HAND
+Waist (WaistSlot, slot 6): Wicked Chain Waistband of the Boar (15539)  quality=2 (Uncommon)  ilvl=30  durability=35/35 (100%)  type=Armor/Mail INVTYPE_WAIST
+Legs (LegsSlot, slot 7): Glimmering Mail Legguards (6386)  quality=2 (Uncommon)  ilvl=30  durability=75/75 (100%)  type=Armor/Mail INVTYPE_LEGS
+Feet (FeetSlot, slot 8): Silvered Bronze Boots (3482)  quality=2 (Uncommon)  ilvl=26  durability=45/45 (100%)  type=Armor/Mail INVTYPE_FEET
+Finger 1 (Finger0Slot, slot 11): Seal of Sylvanas (6414)  quality=3 (Rare)  ilvl=29  durability=none reported (item may not have durability)  type=Armor/Miscellaneous INVTYPE_FINGER
+Finger 2 (Finger1Slot, slot 12): Loop of Sacrifice (281673)  quality=2 (Uncommon)  ilvl=28  durability=none reported (item may not have durability)  type=Armor/Miscellaneous INVTYPE_FINGER
+Trinket 1 (Trinket0Slot, slot 13): <empty slot>
+Trinket 2 (Trinket1Slot, slot 14): <empty slot>
+Main hand (MainHandSlot, slot 16): Viscous Hammer (13045)  quality=3 (Rare)  ilvl=35  durability=100/100 (100%)  type=Weapon/Two-Handed Maces INVTYPE_2HWEAPON
+Off hand (SecondaryHandSlot, slot 17): <empty slot>
+Ranged/Relic (RangedSlot, slot 18): <empty slot>
+Ammo (AmmoSlot, slot 0): <not_collected: item link unavailable> (0)  quality=<not_collected: API returned no value; readiness/availability unresolved [GetInventoryItemQuality]>  count=1
+note: the ammo slot count may be the same arrows as the bags 'ammo:' total; do not add them
+
+## bags  [api ok=156 empty=0 not_read=0]
+bag ids scanned: 0..5 + keyring -1 (not counted in slot totals) [range from Constants.InventoryConstants NumBagSlots+NumReagentBagSlots]
+slots: 39 free / 66 total (27 used)
+ammo: none in bags (every item type classified; none is a projectile)
+items (26 types in 27 stacks, sorted by name):
+- Basic Campfire Kit (279981) x2
+- Bear Brisket (250074) x3
+- Befouled Water Globe (282337) x1
+- Blacksmith Hammer (5956) x1
+- Bubbling Water (9451) x10
+- Copper Ore (2770) x4
+- Enchanted Silver Ingot (267361) x1
+- Healing Potion (929) x8
+- Hearthstone (6948) x1
+- Heavy Armor Kit (4265) x2
+- Incendia Powder (12785) x1
+- Kodo Skin Scroll (5838) x1
+- Lesser Mana Potion (3385) x1
+- Lodestone (279960) x2
+- Logging Rope (16743) x1
+- Melon Juice (1205) x3
+- Mining Pick (2901) x1
+- Mudsnout Composite (3506) x1
+- Purified Kor Gem (272448) x1
+- Sapphire of Aku'Mai (16784) x1
+- Scroll of Strength II (2289) x3
+- Sharpening Wheel (279944) x3
+- Sweet Nectar (1708) x2
+- Swiftness Potion (2459) x3
+- Trevan's Weapon Notes (267454) x1
+- Warsong Oil (16744) x1
+### Bag 0 [Backpack] "Backpack" | size 20 | free 2
+  [1] Hearthstone (6948) x1 quality=1
+  [2] Basic Campfire Kit (279981) x2 quality=1
+  [3] Lodestone (279960) x2 quality=1
+  [4] Sharpening Wheel (279944) x3 quality=1
+  [5] Heavy Armor Kit (4265) x2 quality=1
+  [7] Bear Brisket (250074) x3 quality=1
+  [8] Sweet Nectar (1708) x2 quality=1
+  [9] Bubbling Water (9451) x10 quality=1
+  [10] Melon Juice (1205) x3 quality=1
+  [11] Scroll of Strength II (2289) x3 quality=1
+  [13] Healing Potion (929) x3 quality=1
+  [14] Lesser Mana Potion (3385) x1 quality=1
+  [15] Mining Pick (2901) x1 quality=1
+  [16] Blacksmith Hammer (5956) x1 quality=1
+  [17] Purified Kor Gem (272448) x1 quality=1
+  [18] Trevan's Weapon Notes (267454) x1 quality=1
+  [19] Enchanted Silver Ingot (267361) x1 quality=1
+  [20] Sapphire of Aku'Mai (16784) x1 quality=1
+  empty slots (2): 6,12
+### Bag 1 [Bag_1] "Mageweave Bag" | bag item: Mageweave Bag (10050) | size 12 | free 4
+  [1] Warsong Oil (16744) x1 quality=1
+  [2] Logging Rope (16743) x1 quality=1
+  [3] Incendia Powder (12785) x1 quality=1
+  [4] Kodo Skin Scroll (5838) x1 quality=1
+  [5] Swiftness Potion (2459) x3 quality=1
+  [6] Befouled Water Globe (282337) x1 quality=2
+  [7] Healing Potion (929) x5 quality=1
+  [8] Mudsnout Composite (3506) x1 quality=1
+  empty slots (4): 9-12
+### Bag 2 [Bag_2] "Small Silk Pack" | bag item: Small Silk Pack (4245) | size 10 | free 10
+  empty slots (10): 1-10
+### Bag 3 [Bag_3] "Small Silk Pack" | bag item: Small Silk Pack (4245) | size 10 | free 10
+  empty slots (10): 1-10
+### Bag 4 [Bag_4] "Scuffed Shipping Crate" | bag item: Scuffed Shipping Crate (277332) | size 8 | free 8
+  empty slots (8): 1-8
+### Bag 5 [ReagentBag] "Linen Reagent Bag" | bag item: Linen Reagent Bag (253664) | size 6 | free 5
+  [1] Copper Ore (2770) x4 quality=1
+  empty slots (5): 2-6
+### Bag -1 [Keyring] "Keyring" | size 32 | free 32
+  empty slots (32): 1-32
+
+## bank  [api ok=95 empty=0 not_read=0]
+bank: [stale snapshot captured 2026-11-09 13:27:55 (client local), 11m ago; not a live read]
+trigger: PLAYER_INTERACTION_MANAGER_FRAME_SHOW
+### Character bank (BankType 0)
+slots: 19 free / 54 total (35 used)
+items (31 types in 35 stacks, sorted by name):
+- Ataeric: On Arcane Curiosities (210177) x1
+- Big Bear Meat (3730) x9
+- Blue Leather Bag (856) x1
+- Bronze Bar (2841) x2
+- Coarse Blasting Powder (4364) x2
+- Coarse Grinding Stone (3478) x13
+- Coarse Sharpening Stone (2863) x3
+- Coarse Stone (2836) x7
+- Copper Bar (2840) x4
+- Flint and Tinder (4471) x1
+- Heavy Blasting Powder (4377) x2
+- Heavy Grinding Stone (3486) x4
+- Heavy Stone (2838) x7
+- Iron Bar (3575) x21
+- Iron Ore (2772) x9
+- Jade (1529) x1
+- Lean Wolf Flank (1015) x2
+- Light Feather (17056) x8
+- Light Leather (2318) x3
+- Lion Meat (3731) x1
+- Moss Agate (1206) x2
+- Pyrite (249391) x3
+- Recipe: Tasty Raptor Bites (250187) x1
+- Rough Grinding Stone (3470) x49
+- Rough Weightstone (3239) x9
+- Silk Cloth (4306) x25
+- Silver Bar (2842) x6
+- Silver Skeleton Key (15869) x8
+- Small Brown Pouch (4496) x1
+- Tin Bar (3576) x12
+- Tin Ore (2771) x6
+### Bag 6 [CharacterBankTab_1] Tab 1 "Bank" | size 48 | free 15
+  [1] Silver Skeleton Key (15869) x8 quality=2
+  [2] Coarse Sharpening Stone (2863) x3 quality=1
+  [3] Rough Weightstone (3239) x9 quality=1
+  [4] Iron Ore (2772) x9 quality=1
+  [5] Silk Cloth (4306) x5 quality=1
+  [6] Tin Ore (2771) x6 quality=1
+  [8] Moss Agate (1206) x2 quality=2
+  [10] Flint and Tinder (4471) x1 quality=1
+  [12] Lion Meat (3731) x1 quality=1
+  [13] Big Bear Meat (3730) x9 quality=1
+  [14] Lean Wolf Flank (1015) x2 quality=1
+  [17] Bronze Bar (2841) x2 quality=1
+  [18] Pyrite (249391) x3 quality=2
+  [19] Tin Bar (3576) x12 quality=1
+  [21] Heavy Blasting Powder (4377) x2 quality=1
+  [22] Coarse Blasting Powder (4364) x2 quality=1
+  [23] Rough Grinding Stone (3470) x20 quality=1
+  [24] Silver Bar (2842) x6 quality=2
+  [25] Coarse Stone (2836) x7 quality=1
+  [26] Rough Grinding Stone (3470) x20 quality=1
+  [27] Coarse Grinding Stone (3478) x13 quality=1
+  [28] Iron Bar (3575) x20 quality=1
+  [29] Light Leather (2318) x3 quality=1
+  [31] Silk Cloth (4306) x20 quality=1
+  [40] Recipe: Tasty Raptor Bites (250187) x1 quality=1
+  [41] Small Brown Pouch (4496) x1 quality=1
+  [42] Ataeric: On Arcane Curiosities (210177) x1 quality=1
+  [43] Light Feather (17056) x8 quality=1
+  [44] Rough Grinding Stone (3470) x9 quality=1
+  [45] Jade (1529) x1 quality=2
+  [46] Iron Bar (3575) x1 quality=1
+  [47] Heavy Stone (2838) x7 quality=1
+  [48] Heavy Grinding Stone (3486) x4 quality=1
+  empty slots (15): 7,9,11,15-16,20,30,32-39
+### Bag 7 [CharacterBankTab_2] Tab 2 "Bank" | size 6 | free 4
+  [1] Copper Bar (2840) x4 quality=1
+  [3] Blue Leather Bag (856) x1 quality=1
+  empty slots (4): 2,4-6
+### Account bank (BankType 2)
+not viewable (C_Bank.CanViewBank returned false)
+last snapshot attempt this session: PLAYER_INTERACTION_MANAGER_FRAME_SHOW: not stored (nil)
+
+## quests  [api ok=126 empty=2 not_read=0]
+### Quest log
+log coverage: ok - visible quest rows match the API quest total (28 of 28); 5 header(s) collapsed in the UI, rows still returned (nothing expanded)
+quest slots: 28 used / 40 max (40 log entries including zone headers)
+#### Ashenvale (1 quests)
+- Warsong Supplies (6571) | level 27 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Warsong Saw Blades (0/1)
+    - [ ] 0/1 Warsong Axe Shipment (0/1)
+    - [x] 1/1 Warsong Oil (1/1)
+    - [x] 1/1 Logging Rope (1/1)
+#### City of Dalaran (2 quests)
+- Source of Power (96988) | level 33 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/6 Cracked Sentry Core (0/6)
+- The Grave Knight (96986) | level 33 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Atrexis the Grave Knight slain (0/1)
+#### Dalaran (1 quests, header collapsed in UI)
+- Key to the City (93680) | level 33 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Grimy Key (0/1)
+#### Desolace (1 quests, header collapsed in UI)
+- Regthar Deathgate (1361) | level 32 | READY TO TURN IN | IsComplete=yes ReadyForTurnIn=yes
+    objectives: <empty: API returned an empty objective list for this quest [C_QuestLog.GetQuestObjectives]>
+#### Hillsbrad Foothills (9 quests)
+- Battle of Hillsbrad (528) | level 25 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/15 Hillsbrad Peasant slain (0/15)
+- Souvenirs of Death (546) | level 25 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/30 Hillsbrad Human Skull (0/30)
+- Elixir of Agony (513) | level 28 | READY TO TURN IN | IsComplete=yes ReadyForTurnIn=yes
+    - [x] Take the Mudsnout Composite to Master Apothecary Faranell in the Undercity. (1/1)
+- Humbert's Sword (547) | level 30 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Humbert's Sword (0/1)
+- The Hammer May Fall (676) | level 32 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/8 Boulderfist Ogre slain (0/8)
+    - [ ] 0/10 Boulderfist Enforcer slain (0/10)
+- Helcular's Revenge (552) | level 33 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Helcular's Rod (0/1)
+- Prison Break In (544) | level 33 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Bloodstone Wedge (0/1)
+    - [ ] 0/1 Bloodstone Marble (0/1)
+    - [ ] 0/1 Bloodstone Shard (0/1)
+    - [ ] 0/1 Bloodstone Oval (0/1)
+- Stone Tokens (556) | level 33 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/10 Worn Stone Token (0/10)
+- Infiltration (533) | level 34 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Syndicate Missive (0/1)
+#### Stonetalon Mountains (2 quests, header collapsed in UI)
+- Gerenzo Wrenchwhistle (1096) | level 27 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Gerenzo's Mechanical Arm (0/1)
+- The Den (1089) | level 29 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Sleepers' Key (0/1)
+    - [ ] 0/1 Claw Key (0/1)
+    - [ ] 0/1 Barrow Key (0/1)
+#### The Barrens (3 quests, header collapsed in UI)
+- ... and that note you found (79007) | level 22 | READY TO TURN IN | IsComplete=yes ReadyForTurnIn=yes
+    objectives: <empty: API returned an empty objective list for this quest [C_QuestLog.GetQuestObjectives]>
+- A New Ore Sample (1153) | level 29 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Unrefined Ore Sample (0/1)
+- The Tear of the Moons (857) | level 30 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Tear of the Moons (0/1)
+#### Thousand Needles (4 quests, header collapsed in UI)
+- Arikara (5088) | level 28 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Arikara Serpent Skin (0/1)
+    - [ ] Light the Sacred Fire of Life (0/1)
+- Grimtotem Spying (5064) | level 28 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Secret Note #1 (0/1)
+    - [ ] 0/1 Secret Note #2 (0/1)
+    - [ ] 0/1 Secret Note #3 (0/1)
+- WANTED: Arnak Grimtotem (5147) | level 29 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Arnak's Hoof (0/1)
+- Test of Strength (1151) | level 30 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Fragments of Rok'Alim (0/1)
+#### Thunder Bluff (1 quests)
+- Frostmaw (1136) | level 37 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Frostmaw's Mane (0/1)
+#### Undercity (2 quests)
+- Thundering Hearts (97985) | level 33 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Stormheart's Still-beating Heart (0/1)
+- To Steal From Thieves (1164) | level 36 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Kenata's Head (0/1)
+    - [ ] 0/1 Marcel's Head (0/1)
+    - [ ] 0/1 Fardel's Head (0/1)
+#### Cooking (1 quests)
+- Soothing Turtle Bisque (7321) | level 31 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/10 Turtle Meat (0/10)
+    - [ ] 0/1 Soothing Spices (0/1)
+#### Paladin (1 quests)
+- A Moon-Kissed Blade (95036) | level 25 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [x] 1/1 Collect the note from Trevan (1/1)
+    - [ ] 0/1 Whitestone Oak Lumber (0/1)
+    - [x] 1/1 Enchanted Silver Ingot (1/1)
+    - [x] 1/1 Purified Kor Gem (1/1)
+### Completed quests
+completed quests: 282 ids
+completed coverage: unverified - client-side completed-quest history; completeness not verified (a missing id is not proof of 'not done')
+completed ids (ascending):
+  8,24,25,354,355,356,358,359,360,362,363,364,365,367,368,369,370,371,374,375,376,380,381,382,383
+  398,404,405,407,421,422,423,424,425,426,427,428,429,430,435,437,438,439,440,441,442,443,444,445,446
+  447,448,449,450,452,460,461,477,478,481,482,491,492,493,494,496,498,499,501,502,509,516,527,549,567
+  824,840,842,843,844,845,846,848,849,850,851,855,858,863,865,867,868,869,878,879,881,887,888,890,891
+  892,893,894,895,896,898,899,900,901,902,903,905,906,908,909,1013,1014,1058,1061,1062,1069,1087,1088,1093,1094
+  1095,1098,1130,1131,1149,1150,1358,1359,1483,1487,1491,1492,1918,3221,3281,3366,3369,3901,3902,4542,4767,4770,4821,4841,4865
+  4881,4966,5052,5062,5151,5481,5482,5881,6282,6283,6284,6301,6321,6322,6323,6324,6381,6383,6393,6395,6421,6461,6503,6542,6544
+  6548,6561,6562,6563,6629,6921,6922,6981,86576,86784,90902,91208,91209,91282,91285,91294,91316,91317,91858,91859,91860,91861,91862,91920,91921
+  92421,92422,92706,94427,94434,94435,94436,94438,94440,94441,95034,95189,95204,95314,95328,95494,95495,95507,95508,95621,95803,95883,95884,95885,95998
+  96046,96101,96204,96604,96605,96606,96607,96608,96626,96627,96628,96629,96630,96634,96638,96646,96652,96655,96656,96658,96659,96661,96895,96896,96897
+  96898,96899,97250,97253,97288,97289,97290,97558,97891,97907,97923,97935,97948,97959,97970,98069,98070,98093,98251,98252,98289,98389,98545,98601,99134
+  99141,99142,99144,99152,99153,99156,99582
+title lookup (C_QuestLog.GetTitleForQuestID): partial - 22 of 282 ids returned a title; 260 returned none (cache cold or unknown), 0 restricted/error
+completed (with titles known) 22 of 282:
+  496 Elixir of Suffering
+  501 Elixir of Pain
+  509 Elixir of Agony
+  896 Miner's Fortune
+  1069 Deepmoss Spider Eggs
+  1088 Ordanus
+  1095 Further Instructions
+  1131 Steelsnap
+  1150 Test of Endurance
+  1483 Ziz Fizziks
+  4767 Wind Rider
+  4821 Alien Egg
+  4841 Pacify the Centaur
+  4865 Serpent Wild
+  4881 Assassination Plot
+  5062 Sacred Fire
+  5151 Hypercapacitor Gizmo
+  91860 A Grim Fate
+  94438 A Lesson in Divinity
+  98069 Stolen Freewind Supplies
+  98070 Stop the Screeching
+  99156 Rear Guard Patrol
+ids without a title (260): 8,24,25,354,355,356,358,359,360,362,363,364,365,367,368,369,370,371,374,375,376,380,381,382,383,398,404,405,407,421,422,423,424,425,426,427,428,429,430,435,437,438,439,440,441,442,443,444,445,446
+
+## talents  [api ok=84 empty=0 not_read=0]
+active spec group: 1
+config: Paladin (config ID 653781, type 4, trees {1100})
+uncommitted staged changes: false
+points: 21 spent / 0 available
+  tree 1100 currency {maxQuantity=21,quantity=0,spent=21,spentInTree=21,traitCurrencyID=3820}
+tree 1100: 51 nodes read (51 ok, 0 unreadable)
+purchased talents: 9 nodes
+  node 105693 rank 1/3: Vengeance (spellID 20049) [entry 130422]
+  node 105696 rank 1/1: Seal of Command (spellID 20375) [entry 130425]
+  node 105697 rank 3/3: Two-Handed Weapon Specialization (spellID 20111) [entry 130426]
+  node 105699 rank 2/2: Pursuit of Justice (spellID 26022) [entry 130428]
+  node 105700 rank 1/1: Sacred Arbiter (spellID 1311087) [entry 130429]
+  node 105701 rank 3/3: Sanctified Judgement (spellID 1311074) [entry 130430]
+  node 105703 rank 3/3: Conviction (spellID 20117) [entry 130432]
+  node 105705 rank 2/2: Improved Judgement (spellID 25956) [entry 130434]
+  node 105707 rank 5/5: Deflection (spellID 20060) [entry 130436]
+
+## spells  [api ok=67 empty=0 not_read=0]
+skill lines: 4 reported, spells listed: 62, future (not learned, listed separately below): 0, off-spec skipped: 0, unreadable slots: 0
+note: an empty rank text means no rank, or spell data not loaded yet (the API cannot tell)
+### General (skill line 1, 10 listed)
+  Attack(id=6603), Cannibalize(Racial,id=20577), Will of the Forsaken(Racial,id=7744),
+  Armor Proficiency(id=1293712,passive), Block(Passive,id=107,passive), Dodge(Passive,id=81,passive),
+  Languages(id=1293657,passive), Parry(Passive,id=3127,passive),
+  Touch of the Grave(Racial Passive,id=1260189,passive), Underwater Breathing(Racial Passive,id=5227,passive)
+### Retribution (skill line 2, 14 listed)
+  Blessing of Might(Rank 1,id=19740), Blessing of Might(Rank 2,id=19834), Blessing of Might(Rank 3,id=19835),
+  Blessings(flyout=264), Holy Strike(Rank 1,id=679), Holy Strike(Rank 2,id=678), Holy Strike(Rank 3,id=1866),
+  Holy Strike(Rank 4,id=680), Judgement(id=20271), Retribution Aura(Rank 2,id=10298),
+  Seal of Command(Rank 1,id=20375), Seal of Command(Rank 2,id=20915), Seal of the Crusader(Rank 1,id=21082),
+  Seal of the Crusader(Rank 2,id=20162)
+### Protection (skill line 3, 15 listed)
+  Auras(flyout=270), Blessing of Freedom(id=1044), Blessing of Kings(id=20217),
+  Blessing of Protection(Rank 1,id=1022), Blessing of Protection(Rank 2,id=5599), Devotion Aura(Rank 4,id=10291),
+  Divine Intervention(id=19752), Divine Protection(Rank 1,id=498), Divine Protection(Rank 2,id=5573),
+  Hammer of Justice(Rank 1,id=853), Hammer of Justice(Rank 2,id=5588), Righteous Fury(id=25780),
+  Seal of Fury(Rank 1,id=1311649), Seal of Fury(Rank 2,id=1311656), Utility Blessings(flyout=273)
+### Holy (skill line 4, 23 listed)
+  Blessing of Wisdom(Rank 1,id=19742), Blessing of Wisdom(Rank 2,id=19850), Consecration(Rank 1,id=26573),
+  Consecration(Rank 2,id=20116), Exorcism(Rank 1,id=879), Exorcism(Rank 2,id=5614),
+  Flash of Light(Rank 1,id=19750), Holy Light(Rank 1,id=635), Holy Light(Rank 2,id=639),
+  Holy Light(Rank 3,id=647), Holy Light(Rank 4,id=1026), Holy Light(Rank 5,id=1042), Lay on Hands(Rank 2,id=2800),
+  Purify(id=1152), Redemption(Rank 1,id=7328), Redemption(Rank 2,id=10322), Seal of Light(Rank 1,id=20165),
+  Seal of Righteousness(Rank 1,id=21084), Seal of Righteousness(Rank 2,id=20287),
+  Seal of Righteousness(Rank 3,id=20288), Seal of Righteousness(Rank 4,id=20289), Sense Undead(id=5502),
+  Turn Undead(Rank 1,id=2878)
+not yet learned: none reported by the spellbook
+
+## pet  [api ok=5 empty=3 not_read=1]
+### Pet unit
+UnitExists('pet'): false
+pet unit: <empty: current pet unit absent; not a statement about owned pets>
+player class (UnitClassBase): PALADIN (classID 2)
+### Pet spellbook
+pet spell count (HasPetSpells): <empty: documented no-pet-spells return [C_SpellBook.HasPetSpells]>
+pet spell traversal: <empty: HasPetSpells reports no current pet spells>
+### Stable (C_StableInfo; slot 1 = current pet, slots 2.. = stable slots)
+at stable master: false
+stable slots (GetNumStableSlots): 0
+stabled pets (GetNumStablePets): 0
+slot 1 (current pet slot): <not_collected: no PetInfo returned: empty slot or stable data not loaded (not at a stable master) [C_StableInfo.GetStablePetInfo]>
+
+## actionbars  [api ok=204 empty=1 not_read=0]
+### Action slots (1-120; only slots holding an action are listed)
+current action bar page (C_ActionBar.GetActionBarPage): 1
+filled slots: 42 (equipmentset 2, item 10, spell 30)
+-- slots 1-12
+slot 1: [spell] Holy Strike (spellID 680)
+slot 2: [spell] Judgement (spellID 20271)
+slot 3: [spell] Consecration (spellID 20116)
+slot 4: [spell] Exorcism (spellID 5614)
+slot 5: [spell] Turn Undead (spellID 2878)
+slot 7: [item] Healing Potion (itemID 929)
+slot 8: [spell] Cannibalize (spellID 20577)
+slot 9: [item] Swiftness Potion (itemID 2459)
+slot 10: [item] Scroll of Strength II (itemID 2289)
+slot 11: [item] Sweet Nectar (itemID 1708)
+slot 12: [item] Bear Brisket (itemID 250074)
+-- slots 25-36
+slot 25: [spell] Hammer of Justice (spellID 5588)
+slot 26: [spell] Holy Light (spellID 1042)
+slot 27: [spell] Flash of Light (spellID 19750)
+slot 28: [spell] Divine Protection (spellID 5573)
+slot 29: [spell] Seal of Righteousness (spellID 20289)
+slot 30: [spell] Seal of Command (spellID 20915)
+slot 31: [spell] Seal of Light (spellID 20165)
+slot 32: [spell] Seal of the Crusader (spellID 20162)
+slot 33: [spell] Seal of Fury (spellID 1311656)
+slot 34: [spell] Blessing of Protection (spellID 5599)
+slot 35: [spell] Lay on Hands (spellID 2800)
+slot 36: [item] Hearthstone (itemID 6948)
+-- slots 49-60
+slot 49: [item] Executor's Motivator (itemID 286176)
+slot 51: [item] Basic Campfire Kit (itemID 279981)
+slot 52: [item] Lodestone (itemID 279960)
+slot 53: [item] Sharpening Wheel (itemID 279944)
+slot 55: [spell] Purify (spellID 1152)
+slot 56: [equipmentset] (id Ret)
+slot 57: [equipmentset] (id Tank)
+slot 58: [spell] Blacksmithing (spellID 3100)
+slot 59: [spell] Smelting (spellID 2656)
+slot 60: [spell] Find Minerals (spellID 2580)
+-- slots 61-72
+slot 61: [spell] Blessing of Might (spellID 19835)
+slot 62: [spell] Blessing of Wisdom (spellID 19850)
+slot 63: [spell] Blessing of Kings (spellID 20217)
+slot 65: [spell] Righteous Fury (spellID 25780)
+slot 67: [spell] Divine Intervention (spellID 19752)
+slot 68: [spell] Blessing of Freedom (spellID 1044)
+slot 69: [spell] Will of the Forsaken (spellID 7744)
+slot 70: [spell] Sense Undead (spellID 5502)
+slot 72: [spell] Redemption (spellID 10322)
+note: slots are grouped by 12 only; the mapping to on-screen bars / stance pages is not verified.
+### Pet bar (GetPetActionInfo, 10 slots; only slots holding an action are listed)
+pet bar: <empty: UnitExists("pet") is false: no pet bar to read [UnitExists]>
+
+## skills  [api ok=29 empty=0 not_read=0]
+skill lines reported: 27
+coverage: complete (27 lines read, 6 groups, no collapsed headers)
+### Class Skills [id 7]
+- Holy 1/1 [id 594 cat 7]
+- Protection 1/1 [id 267 cat 7]
+- Retribution 1/1 [id 184 cat 7]
+### Professions [id 11]
+- Blacksmithing 133/150 [id 2938 cat 11 parent 164]
+- Blacksmithing 133/150 [id 164 cat 11]
+- Mining 146/225 [id 2946 cat 11 parent 186]
+- Mining 146/225 [id 186 cat 11]
+### Secondary Skills [id 9]
+- Cooking 3/75 [id 185 cat 9]
+- Cooking 3/75 [id 2939 cat 9 parent 185]
+### Weapon Skills [id 6]
+- Axes 1/150 [id 44 cat 6]
+- Defense 142/150 [id 95 cat 6]
+  defense modifier shown by the UI (UnitDefenseSkill): 0
+- Maces 109/150 [id 54 cat 6]
+- Two-Handed Axes 144/150 [id 172 cat 6]
+- Two-Handed Maces 89/150 [id 160 cat 6]
+- Unarmed 29/150 [id 162 cat 6]
+### Armor Proficiencies [id 8]
+- Cloth 1/1 [id 415 cat 8]
+- Leather 1/1 [id 414 cat 8]
+- Mail 1/1 [id 413 cat 8]
+- Shield 1/1 [id 433 cat 8]
+### Languages [id 10]
+- Language: Gutterspeak 300/300 [id 673 cat 10]
+- Language: Orcish 300/300 [id 109 cat 10]
+
+## reputation  [api ok=32 empty=1 not_read=0]
+rows: 14
+sort type: 2 (Character)
+legacy reputations shown: true
+watched: <empty: no faction is watched (declared nilable return) [C_Reputation.GetWatchedFactionData]>
+counts: 11 factions, 3 headers, 0 unreadable rows
+completeness: no collapsed header among the rows read
+### Horde (67)
+- Darkspear Trolls (530): standing=5 (Friendly) progress=2623/6000 value=5623 range=3000..9000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+- Orgrimmar (76): standing=5 (Friendly) progress=3943/6000 value=6943 range=3000..9000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+- Thunder Bluff (81): standing=5 (Friendly) progress=2363/6000 value=5363 range=3000..9000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+- Undercity (68): standing=6 (Honored) progress=6238/12000 value=15238 range=9000..21000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+### Steamwheedle Cartel (169)
+- Booty Bay (21): standing=4 (Neutral) progress=1853/3000 value=1853 range=0..3000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+- Everlook (577): standing=4 (Neutral) progress=1853/3000 value=1853 range=0..3000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+- Gadgetzan (369): standing=4 (Neutral) progress=1853/3000 value=1853 range=0..3000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+- Powderfuse (2827): standing=4 (Neutral) progress=1853/3000 value=1853 range=0..3000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+- Ratchet (470): standing=5 (Friendly) progress=207/6000 value=3207 range=3000..9000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+### Other (0)
+- Argent Dawn (529): standing=4 (Neutral) progress=1250/3000 value=1250 range=0..3000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+- Earthen Ring (2787): standing=4 (Neutral) progress=600/3000 value=600 range=0..3000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+
+## currency  [api ok=8 empty=1 not_read=0]
+currency list: <empty: GetCurrencyListSize returned 0 [C_CurrencyInfo.GetCurrencyListSize]>
+### PvP / honor (stat APIs, not entries of the currency list)
+honor: 0
+honor max: 5500
+honor level: 1
+lifetime honorable kills: 0, max PvP rank id 0
+session honorable/dishonorable kills: 0/0
+yesterday honorable/dishonorable kills: 0/0
+PvP rank (faction 2800): level 0/14, points 0/750
+
+## auras  [api ok=6 empty=2 not_read=0]
+(player buffs/debuffs; remaining = expirationTime - GetTime(); fields can be secret in combat)
+### Player buffs (HELPFUL): 4
+- Find Minerals (2580) | no expiry | source=player
+- Devotion Aura (10291) | no expiry | source=player
+- Blessing of Might (19835) | 59m 45s left of 1h 0m | source=player | dispel=Magic
+- Campfire Nearby (1283391) | no expiry | source=<not provided>
+### Player debuffs (HARMFUL): <empty: index 1 returned nil: no HARMFUL auras on player [C_UnitAuras.GetAuraDataByIndex]>
+### Pet auras: <empty: UnitExists("pet") is false: no pet unit [UnitExists]>
+
+## flightpaths  [api ok=0 empty=0 not_read=0]
+flight paths: [stale snapshot captured 2026-11-09 13:32:15 (client local), 6m ago; not a live read]
+### Kalimdor (taxi mapID 1464), captured 2026-11-09 13:07:07 (client local), 31m ago
+known flight points: 22
+- Thunder Bluff, Mulgore (22) [reachable]
+- Orgrimmar, Durotar (23) [reachable]
+- Crossroads, The Barrens (25) [reachable]
+- Sun Rock Retreat, Stonetalon Mountains (29) [reachable]
+- Freewind Post, Thousand Needles (30) [current]
+- Shadowprey Village, Desolace (38) [unreachable]
+- Gadgetzan, Tanaris (40) [unreachable]
+- Camp Mojache, Feralas (42) [unreachable]
+- Valormok, Azshara (44) [unreachable]
+- Bloodvenom Post, Felwood (48) [unreachable]
+- Everlook, Winterspring (53) [unreachable]
+- Brackenwall Village, Dustwallow Marsh (55) [unreachable]
+- Zoram'gar Outpost, Ashenvale (58) [reachable]
+- Splintertree Post, Ashenvale (61) [reachable]
+- Moonglade (69) [unreachable]
+- Cenarion Hold, Silithus (72) [unreachable]
+- Camp Taurajo, The Barrens (77) [reachable]
+- Marshal's Refuge, Un'Goro Crater (79) [unreachable]
+- Ratchet, The Barrens (80) [reachable]
+- Summit of Eternity, Mount Hyjal (559) [unreachable]
+- zzOLDPowderfuse Port, Riverglades (3208) [unreachable]
+- Tainted Foothills, Mount Hyjal (3242) [unreachable]
+not yet discovered: 0
+### Eastern Kingdoms (taxi mapID 1463), captured 2026-11-09 13:32:15 (client local), 6m ago
+known flight points: 13
+- The Sepulcher, Silverpine Forest (10) [reachable]
+- Undercity, Tirisfal (11) [current]
+- Tarren Mill, Hillsbrad (13) [reachable]
+- Hammerfall, Arathi (17) [unreachable]
+- Booty Bay, Stranglethorn (18) [unreachable]
+- Grom'gol, Stranglethorn (20) [reachable]
+- Kargath, Badlands (21) [unreachable]
+- Stonard, Swamp of Sorrows (56) [unreachable]
+- Light's Hope Chapel, Eastern Plaguelands (68) [unreachable]
+- Flame Crest, Burning Steppes (70) [unreachable]
+- Thorium Point, Searing Gorge (75) [unreachable]
+- Revantusk Village, The Hinterlands (76) [unreachable]
+- Rog'mar, Riverglades (3203) [unreachable]
+not yet discovered: 0
+
+## addons  [api ok=64 empty=0 not_read=0]
+installed: 24 | running: 15 (third-party 15, Blizzard_* 0 collapsed) | not running: 9
+not running by reason (client codes, listed addons omitted): DEMAND_LOADED=4, DISABLED=1, unspecified=4
+### running third-party addons (15)
+- DBM-Core | "<DBM Core> Main Core" | v12.1.20
+- DBM-StatusBarTimers | "<DBM Core> Status Bar Timers" | v12.1.20
+- DBM-VPVEM | "<DBM Media> Voicepack VEM" | va8e9f0e
+- Auctionator | v342
+- !BugGrabber | "BugGrabber" | v12.1.1
+- BugSack | v12.1.9
+- ForeverDungeonJournal | "DungeonJournal" | v1.7.2
+- ForeverCharacterExport | "Forever Character Export" | v0.3.0 | (this addon)
+- Leatrix_Maps | "Leatrix Maps" | v1.60.28
+- Leatrix_Plus | "Leatrix Plus" | v1.60.29
+- Pawn | v2.14.1
+- Questie | "Questie v12.6.3" | v12.6.3
+- QuestieDB | v1.0.12
+- QuestieTrace | v1.9.0
+- XToLevelF | "XToLevel Forever" | vForever 1.10
+
+## coverage
+Per-section API results (ok/empty/not_collected/unsupported/restricted/error):
+- character: 67/0/0/0/2/0
+- equipment: 139/0/2/0/0/0
+- bags: 156/0/0/0/0/0
+- bank: 95/0/0/0/0/0
+- quests: 126/2/0/0/0/0
+- talents: 84/0/0/0/0/0
+- spells: 67/0/0/0/0/0
+- pet: 5/3/1/0/0/0
+- actionbars: 204/1/0/0/0/0
+- skills: 29/0/0/0/0/0
+- reputation: 32/1/0/0/0/0
+- currency: 8/1/0/0/0/0
+- auras: 6/2/0/0/0/0
+- flightpaths: 0/0/0/0/0/0
+- addons: 64/0/0/0/0/0
+Unread values (status, API, reason):
+- character: restricted UnitHealth - API returned a secret or inaccessible value
+- character: restricted UnitPower - API returned a secret or inaccessible value
+- equipment: not_collected GetInventoryItemQuality - API returned no value; readiness/availability unresolved
+- equipment: not_collected GetInventoryItemTexture - API returned no value; readiness/availability unresolved
+- quests: empty C_QuestLog.GetQuestObjectives - API returned an empty objective list for this quest
+- pet: empty - - HasPetSpells reports no current pet spells
+- pet: empty - - current pet unit absent; not a statement about owned pets
+- pet: empty C_SpellBook.HasPetSpells - documented no-pet-spells return
+- pet: not_collected C_StableInfo.GetStablePetInfo - no PetInfo returned: empty slot or stable data not loaded (not at a stable master)
+- actionbars: empty UnitExists - UnitExists("pet") is false: no pet bar to read
+- reputation: empty C_Reputation.GetWatchedFactionData - no faction is watched (declared nilable return)
+- currency: empty C_CurrencyInfo.GetCurrencyListSize - GetCurrencyListSize returned 0
+- auras: empty C_UnitAuras.GetAuraDataByIndex - index 1 returned nil: no HARMFUL auras on player
+- auras: empty UnitExists - UnitExists("pet") is false: no pet unit
+Unknowable from the client (expected gaps):
+- the client cannot list quests you have not accepted or that are available from NPCs (needs a quest database)
+- auction/vendor prices and item market value (no client-side source)
+- other characters, account-wide or server-side data
+- talent/quest/item meaning beyond what the client returns (no guide data bundled)
+- keybinds, macro bodies and UI settings are not collected by this addon (action slot contents are)
+Needs a player action first:
+- bank: open the bank once; the contents are then saved and shown as a stale snapshot
+- flight paths: open a flight master's map once; known nodes are then saved as a stale snapshot
+- played time: arrives by event after login; shown as stale when older than this session
+# end

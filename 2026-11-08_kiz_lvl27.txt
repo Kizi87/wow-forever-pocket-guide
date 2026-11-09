@@ -1,0 +1,639 @@
+# ForeverCharacterExport 0.3.0 | WoW 1.60.1 (build 70862, interface 16001)
+# captured 2026-11-08 14:40:12 (client local) | epoch 1794148812
+# addon runtime-verified: false
+# tags: <empty> = the API answered with a real empty value | <not_collected: why> = could not be read, NOT proof of none | <unsupported>/<restricted>/<error> = see reason | [stale ...] = saved earlier, not live
+
+## character  [api ok=65 empty=2 not_read=2]
+-- identity
+name: Kiz
+realm: CAMWOW EU4 Realm 7 PvE
+realm (normalized): CAMWOWEU4Realm7PvE
+race: Undead (token Scourge, id 5)
+class: Paladin (token PALADIN, id 2)
+sex: 2 (raw UnitSex; the declared enum is 0=Male 1=Female 2=None 3=Both 4=Neutral, older clients use 2=Male 3=Female; mapping unverified on this build)
+faction: Horde (localized Horde)
+level: 27
+game locale: enUS
+-- experience and money
+xp: 24857 / 38900 (63.90%)
+xp to next level: 14043
+rested xp: <empty: nil return; the default XP bar treats this as no rested XP [GetXPExhaustion]>
+resting: false
+money: 12g 28s 26c
+money (raw copper): 122826
+-- location
+zone: Blackfathom Deeps
+subzone: Blackfathom Deeps
+real zone: Blackfathom Deeps
+map ID: 1414
+map name: Kalimdor (type 2, parent map 947)
+map position: x=43.91 y=35.35 (percent of the map above)
+bind location (hearthstone): Undercity
+-- vitals
+health: <restricted: API returned a secret or inaccessible value [UnitHealth]>
+health max: 927
+primary power type: 0 (token MANA)
+primary power: <restricted: API returned a secret or inaccessible value [UnitPower]>
+primary power max: 1031
+-- guild
+in guild: false
+guild: <empty: IsInGuild returned false [GetGuildInfo]>
+-- combat state
+in combat (lockdown): false
+in combat (unit): false
+-- played time
+played total: 1d 15h 41m 11s (142871 seconds) [live: TIME_PLAYED_MSG received this session, 1m ago]
+played this level: 0d 2h 11m 44s (7904 seconds) [live: TIME_PLAYED_MSG received this session, 1m ago]
+played request: requested at login
+-- primary stats (UnitStat: effective, base, posBuff, negBuff)
+strength: effective=98 base=98 posBuff=48 negBuff=0 [UnitStat index 1 via LE_UNIT_STAT_STRENGTH]
+agility: effective=41 base=41 posBuff=7 negBuff=0 [UnitStat index 2 via LE_UNIT_STAT_AGILITY]
+stamina: effective=80 base=80 posBuff=30 negBuff=0 [UnitStat index 3 via LE_UNIT_STAT_STAMINA]
+intellect: effective=46 base=46 posBuff=11 negBuff=0 [UnitStat index 4 via LE_UNIT_STAT_INTELLECT]
+spirit: effective=53 base=53 posBuff=8 negBuff=0 [UnitStat index 5 via LE_UNIT_STAT_SPIRIT]
+-- attack and armor
+armor: effective=1138 baseline=64 real=1138 bonus=1074
+defense skill: base=131 modifier=0
+melee attack power: effective=327 base=257 posBuff=70 negBuff=0
+ranged attack power: effective=30 base=0 posBuff=30 negBuff=0
+melee damage: mainhand 121.45-146.95, offhand 23.86-23.86, physical bonus +0/0, multiplier 1
+ranged damage: 0-0, speed 0, bonus +0/0, multiplier 1
+attack speed: mainhand=3.00 offhand=<nil> ranged=<nil>
+-- crit, hit, haste
+crit melee: 10.82%
+crit ranged: 6.30%
+crit spell: 11.11%
+hit melee: 0.00% (rating bonus 0.00% + modifier 0.00%)
+hit ranged: 0.00% (rating bonus 0.00% + modifier 0.00%)
+hit spell: 0.00% (rating bonus 0.00% + modifier 0.00%)
+haste melee: 0.00%
+haste ranged: 0.00% (base 0.00% + quiver 0.00%)
+haste spell: 0.00%
+expertise: mainhand=0.00% offhand=0.00% ranged=0.00%
+armor penetration: 0
+-- avoidance
+dodge: 4.74%
+parry: 9.84%
+block: 4.84%
+-- spell and mana
+spell power by school (school index=bonus): 2=0 3=0 4=0 5=0 6=0 7=0
+spell healing: 0
+spell penetration: 0
+mana regen: base=12.88 casting=0.00 (per second)
+
+## equipment  [api ok=139 empty=0 not_read=2]
+ranged slot shown: true
+ammo needed: true
+uses ammo: false
+has relic slot: true
+summary: equipped 13/19 slots, empty 6, unresolved 0; lowest durability 100% (Head); broken items 0; durability read for 9 items
+Head (HeadSlot, slot 1): Taurajo Headband (279391)  quality=1 (Common)  ilvl=23  durability=40/40 (100%)  type=Armor/Cloth INVTYPE_HEAD
+Neck (NeckSlot, slot 2): <empty slot>
+Shoulder (ShoulderSlot, slot 3): Glimmering Mail Pauldrons (6388)  quality=2 (Uncommon)  ilvl=30  durability=60/60 (100%)  type=Armor/Mail INVTYPE_SHOULDER
+Back (BackSlot, slot 15): Infiltrator Cloak of Power (7411)  quality=2 (Uncommon)  ilvl=31  durability=none reported (item may not have durability)  type=Armor/Cloth INVTYPE_CLOAK
+Chest (ChestSlot, slot 5): Mutant Scale Breastplate (6627)  quality=3 (Rare)  ilvl=23  durability=105/105 (100%)  type=Armor/Mail INVTYPE_CHEST
+Shirt (ShirtSlot, slot 4): Brawler's Harness (6125)  quality=1 (Common)  ilvl=1  durability=none reported (item may not have durability)  type=Armor/Miscellaneous INVTYPE_BODY
+Tabard (TabardSlot, slot 19): <empty slot>
+Wrist (WristSlot, slot 9): Phalanx Bracers of Power (7416)  quality=2 (Uncommon)  ilvl=31  durability=35/35 (100%)  type=Armor/Mail INVTYPE_WRIST
+Hands (HandsSlot, slot 10): Grip of Fear (271208)  quality=3 (Rare)  ilvl=22  durability=35/35 (100%)  type=Armor/Mail INVTYPE_HAND
+Waist (WaistSlot, slot 6): Runed Copper Belt (2857)  quality=2 (Uncommon)  ilvl=18  durability=25/25 (100%)  type=Armor/Mail INVTYPE_WAIST
+Legs (LegsSlot, slot 7): Glimmering Mail Legguards (6386)  quality=2 (Uncommon)  ilvl=30  durability=75/75 (100%)  type=Armor/Mail INVTYPE_LEGS
+Feet (FeetSlot, slot 8): Silvered Bronze Boots (3482)  quality=2 (Uncommon)  ilvl=26  durability=45/45 (100%)  type=Armor/Mail INVTYPE_FEET
+Finger 1 (Finger0Slot, slot 11): Seal of Sylvanas (6414)  quality=3 (Rare)  ilvl=29  durability=none reported (item may not have durability)  type=Armor/Miscellaneous INVTYPE_FINGER
+Finger 2 (Finger1Slot, slot 12): Loop of Sacrifice (281673)  quality=2 (Uncommon)  ilvl=28  durability=none reported (item may not have durability)  type=Armor/Miscellaneous INVTYPE_FINGER
+Trinket 1 (Trinket0Slot, slot 13): <empty slot>
+Trinket 2 (Trinket1Slot, slot 14): <empty slot>
+Main hand (MainHandSlot, slot 16): Forsaken Greataxe (251533)  quality=3 (Rare)  ilvl=24  durability=90/90 (100%)  type=Weapon/Two-Handed Axes INVTYPE_2HWEAPON
+Off hand (SecondaryHandSlot, slot 17): <empty slot>
+Ranged/Relic (RangedSlot, slot 18): <empty slot>
+Ammo (AmmoSlot, slot 0): <not_collected: item link unavailable> (0)  quality=<not_collected: API returned no value; readiness/availability unresolved [GetInventoryItemQuality]>  count=1
+note: the ammo slot count may be the same arrows as the bags 'ammo:' total; do not add them
+
+## bags  [api ok=145 empty=0 not_read=0]
+bag ids scanned: 0..5 + keyring -1 (not counted in slot totals) [range from Constants.InventoryConstants NumBagSlots+NumReagentBagSlots]
+slots: 26 free / 54 total (28 used)
+ammo: none in bags (every item type classified; none is a projectile)
+items (28 types in 28 stacks, sorted by name):
+- Basic Campfire Kit (279981) x3
+- Big Bear Meat (3730) x1
+- Blacksmith Hammer (5956) x1
+- Bubbling Water (9451) x7
+- Driftmire Shield (16660) x1
+- Elixir of Minor Fortitude (2458) x1
+- Enchanted Resonite Crystal (16603) x1
+- Enchanted Silver Ingot (267361) x1
+- Healing Potion (929) x3
+- Hearthstone (6948) x1
+- Lean Wolf Flank (1015) x2
+- Lesser Healing Potion (858) x3
+- Lesser Mageblood Elixir (250340) x1
+- Lion Meat (3731) x1
+- Lodestone (279960) x4
+- Logging Rope (16743) x1
+- Maggran's Reserve Letter (16189) x1
+- Medium Armor Kit (2313) x1
+- Mining Pick (2901) x1
+- Moss Agate (1206) x1
+- Sharpening Wheel (279944) x3
+- Silk Cloth (4306) x1
+- Trevan's Weapon Notes (267454) x1
+- Warsong Oil (16744) x1
+- Warsong Outrider Update (16765) x1
+- Warsong Runner Update (16763) x1
+- Warsong Scout Update (16764) x1
+- Wool Cloth (2592) x4
+### Bag 0 [Backpack] "Backpack" | size 20 | free 0
+  [1] Hearthstone (6948) x1 quality=1
+  [2] Basic Campfire Kit (279981) x3 quality=1
+  [3] Lodestone (279960) x4 quality=1
+  [4] Sharpening Wheel (279944) x3 quality=1
+  [5] Medium Armor Kit (2313) x1 quality=1
+  [6] Bubbling Water (9451) x7 quality=1
+  [7] Lesser Mageblood Elixir (250340) x1 quality=1
+  [8] Elixir of Minor Fortitude (2458) x1 quality=1
+  [9] Healing Potion (929) x3 quality=1
+  [10] Lesser Healing Potion (858) x3 quality=1
+  [11] Mining Pick (2901) x1 quality=1
+  [12] Blacksmith Hammer (5956) x1 quality=1
+  [13] Driftmire Shield (16660) x1 quality=2
+  [14] Trevan's Weapon Notes (267454) x1 quality=1
+  [15] Enchanted Silver Ingot (267361) x1 quality=1
+  [16] Warsong Outrider Update (16765) x1 quality=1
+  [17] Warsong Scout Update (16764) x1 quality=1
+  [18] Warsong Runner Update (16763) x1 quality=1
+  [19] Warsong Oil (16744) x1 quality=1
+  [20] Logging Rope (16743) x1 quality=1
+### Bag 1 [Bag_1] "Blue Leather Bag" | bag item: Blue Leather Bag (856) | size 8 | free 6
+  [1] Enchanted Resonite Crystal (16603) x1 quality=1
+  [2] Maggran's Reserve Letter (16189) x1 quality=1
+  empty slots (6): 3-8
+### Bag 2 [Bag_2] "Small Brown Pouch" | bag item: Small Brown Pouch (4496) | size 6 | free 6
+  empty slots (6): 1-6
+### Bag 3 [Bag_3] "Small Brown Pouch" | bag item: Small Brown Pouch (4496) | size 6 | free 6
+  empty slots (6): 1-6
+### Bag 4 [Bag_4] "Scuffed Shipping Crate" | bag item: Scuffed Shipping Crate (277332) | size 8 | free 8
+  empty slots (8): 1-8
+### Bag 5 [ReagentBag] "Linen Reagent Bag" | bag item: Linen Reagent Bag (253664) | size 6 | free 0
+  [1] Moss Agate (1206) x1 quality=2
+  [2] Lion Meat (3731) x1 quality=1
+  [3] Big Bear Meat (3730) x1 quality=1
+  [4] Lean Wolf Flank (1015) x2 quality=1
+  [5] Silk Cloth (4306) x1 quality=1
+  [6] Wool Cloth (2592) x4 quality=1
+### Bag -1 [Keyring] "Keyring" | size 32 | free 32
+  empty slots (32): 1-32
+
+## bank  [api ok=0 empty=0 not_read=1]
+bank: <not_collected: no snapshot stored yet; open the bank once>
+
+## quests  [api ok=104 empty=1 not_read=0]
+### Quest log
+log coverage: ok - visible quest rows match the API quest total (23 of 23); 9 header(s) collapsed in the UI, rows still returned (nothing expanded)
+quest slots: 23 used / 40 max (32 log entries including zone headers)
+#### Ashenvale (3 quests, header collapsed in UI)
+- Between a Rock and a Thistlefur (216) | level 24 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/12 Thistlefur Avenger slain (0/12)
+    - [ ] 0/12 Thistlefur Shaman slain (0/12)
+- Troll Charm (6462) | level 24 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/8 Troll Charm (0/8)
+- Warsong Supplies (6571) | level 27 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Warsong Saw Blades (0/1)
+    - [ ] 0/1 Warsong Axe Shipment (0/1)
+    - [x] 1/1 Warsong Oil (1/1)
+    - [x] 1/1 Logging Rope (1/1)
+#### Blackfathom Deeps (2 quests, header collapsed in UI)
+- The Essence of Aku'Mai (6563) | level 22 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/20 Sapphire of Aku'Mai (0/20)
+- Amongst the Ruins (6921) | level 27 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Fathom Core (0/1)
+#### Hillsbrad Foothills (3 quests, header collapsed in UI)
+- Time To Strike (494) | level 20 | READY TO TURN IN | IsComplete=yes ReadyForTurnIn=yes
+    objectives: <empty: API returned an empty objective list for this quest [C_QuestLog.GetQuestObjectives]>
+- Battle of Hillsbrad (527) | level 24 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/6 Hillsbrad Farmer slain (0/6)
+    - [ ] 0/6 Hillsbrad Farmhand slain (0/6)
+    - [ ] 0/1 Farmer Ray slain (0/1)
+    - [ ] 0/1 Farmer Getz slain (0/1)
+- Dangerous! (567) | level 28 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Clerk Horrace Whitesteed slain (0/1)
+    - [ ] 0/1 Citizen Wilkes slain (0/1)
+    - [ ] 0/1 Miner Hackett slain (0/1)
+    - [ ] 0/1 Farmer Kalaba slain (0/1)
+#### Ruins of Lordaeron (1 quests, header collapsed in UI)
+- Light's Justice (92421) | level 22 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/25 Intact Limbs (0/25)
+#### Silverpine Forest (2 quests, header collapsed in UI)
+- A Husband's Revenge (530) | level 20 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Valdred's Hands (0/1)
+- Watching the Roads (95981) | level 20 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [x] 8/8 Dalaran Watcher slain (8/8)
+    - [ ] 2/8 Dalaran Wizard slain (2/8)
+#### Stonetalon Mountains (5 quests, header collapsed in UI)
+- Earthen Arise (6481) | level 20 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Goggeroc slain (0/1)
+- Shredding Machines (1068) | level 23 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 XT:4 slain (0/1)
+    - [ ] 0/1 XT:9 slain (0/1)
+- Gerenzo Wrenchwhistle (1096) | level 27 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Gerenzo's Mechanical Arm (0/1)
+- Calling in the Reserves (5881) | level 28 | READY TO TURN IN | IsComplete=yes ReadyForTurnIn=yes
+    - [x] Maggran wishes you to deliver a letter to Grish Longrunner at the Great Lift in the Barrens. (1/1)
+- The Den (1089) | level 29 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Sleepers' Key (0/1)
+    - [ ] 0/1 Claw Key (0/1)
+    - [ ] 0/1 Barrow Key (0/1)
+#### The Barrens (4 quests, header collapsed in UI)
+- The Warsong Reports (6543) | level 19 | READY TO TURN IN | IsComplete=yes ReadyForTurnIn=yes
+    - [x] 1/1 Warsong Scout Update (1/1)
+    - [x] 1/1 Warsong Runner Update (1/1)
+    - [x] 1/1 Warsong Outrider Update (1/1)
+- Chol'aruk the Ravener (97003) | level 21 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Chol'aruk's Head (0/1)
+- Revenge of Gann (846) | level 26 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/6 Nitroglycerin (0/6)
+    - [ ] 0/6 Wood Pulp (0/6)
+    - [ ] 0/6 Sodium Nitrate (0/6)
+- A New Ore Sample (1153) | level 29 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Unrefined Ore Sample (0/1)
+#### Thunder Bluff (1 quests, header collapsed in UI)
+- Steelsnap (1131) | level 30 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Steelsnap's Rib (0/1)
+#### Paladin (2 quests, header collapsed in UI)
+- A Moon-Kissed Blade (95036) | level 25 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [x] 1/1 Collect the note from Trevan (1/1)
+    - [ ] 0/1 Whitestone Oak Lumber (0/1)
+    - [x] 1/1 Enchanted Silver Ingot (1/1)
+    - [ ] 0/1 Purified Kor Gem (0/1)
+- Seeking the Kor Gem (95042) | level 25 | in progress | IsComplete=no ReadyForTurnIn=no
+    - [ ] 0/1 Corrupted Kor Gem (0/1)
+### Completed quests
+completed quests: 253 ids
+completed coverage: unverified - client-side completed-quest history; completeness not verified (a missing id is not proof of 'not done')
+completed ids (ascending):
+  8,24,25,354,355,356,358,359,360,362,363,364,365,367,368,369,370,371,374,375,376,380,381,382,383
+  398,404,405,407,421,422,423,424,425,426,427,428,429,430,435,437,438,439,440,441,442,443,444,445,446
+  447,448,449,450,452,460,461,477,478,481,482,491,492,493,496,498,499,501,502,516,549,824,840,842,843
+  844,845,848,850,851,855,858,863,865,867,868,869,878,879,881,887,888,890,891,892,893,894,895,896,898
+  899,900,901,902,903,905,906,1013,1014,1058,1061,1062,1069,1087,1088,1093,1094,1095,1098,1130,1358,1359,1483,1487,1491
+  1492,1918,3221,3281,3366,3369,3901,3902,5052,5481,5482,6282,6283,6284,6301,6321,6322,6323,6324,6381,6383,6393,6395,6421,6461
+  6503,6542,6544,6548,6562,6629,6981,86576,86784,90902,91208,91209,91282,91285,91294,91316,91317,91858,91859,91860,91861,91862,91920,91921,92422
+  92706,94427,94434,94435,94436,94438,94440,94441,95034,95189,95204,95314,95328,95494,95495,95507,95508,95621,95803,95883,95884,95885,95998,96046,96101
+  96204,96604,96605,96606,96607,96608,96626,96627,96628,96629,96630,96634,96638,96646,96652,96655,96656,96658,96659,96661,96895,96896,96897,96898,96899
+  97250,97253,97288,97289,97290,97558,97891,97907,97923,97935,97948,97959,97970,98093,98251,98252,98289,98389,98545,98601,99134,99141,99142,99144,99152
+  99153,99156,99582
+title lookup (C_QuestLog.GetTitleForQuestID): partial - 103 of 253 ids returned a title; 150 returned none (cache cold or unknown), 0 restricted/error
+completed (with titles known) 103 of 253:
+  24 Shadumbra's Head
+  25 Stonetalon Standstill
+  421 Prove Your Worth
+  422 Arugal's Folly
+  423 Arugal's Folly
+  424 Arugal's Folly
+  425 Ivar the Foul
+  428 Lost Deathstalkers
+  429 Wild Hearts
+  430 Return to Quinn
+  435 Escorting Erland
+  437 The Dead Fields
+  438 The Decrepit Ferry
+  439 Rot Hide Clues
+  440 The Engraved Ring
+  441 Raleigh and the Undercity
+  442 Assault on Fenris Isle
+  443 Rot Hide Ichor
+  444 Rot Hide Origins
+  446 Thule Ravenclaw
+  447 A Recipe For Death
+  448 Report to Hadrec
+  449 The Deathstalkers' Report
+  450 A Recipe For Death
+  452 Pyrewood Ambush
+  460 Resting in Pieces
+  461 The Hidden Niche
+  477 Border Crossings
+  478 Maps and Runes
+  481 Dalar's Analysis
+  482 Dalaran's Intentions
+  491 Wand to Bethor
+  493 Journey to Hillsbrad Foothills
+  496 Elixir of Suffering
+  498 The Rescue
+  501 Elixir of Pain
+  516 Beren's Peril
+  549 WANTED: Syndicate Personnel
+  824 Je'neu of the Earthen Ring
+  843 Gann's Reclamation
+  850 Kolkar Leaders
+  865 Raptor Horns
+  868 Egg Hunt
+  878 Tribes at War
+  879 Betrayal from Within
+  893 Weapons of Choice
+  896 Miner's Fortune
+  898 Free From the Hold
+  899 Consumed by Hatred
+  906 Betrayal from Within
+  1013 The Book of Ur
+  1014 Arugal Must Die
+  1058 Jin'Zil's Forest Magic
+  1061 The Spirits of Stonetalon
+  1062 Goblin Invaders
+  1069 Deepmoss Spider Eggs
+  1087 Cenarius' Legacy
+  1088 Ordanus
+  1093 Super Reaper 6000
+  1094 Further Instructions
+  1095 Further Instructions
+  1098 Deathstalkers in Shadowfang
+  1130 Melor Sends Word
+  1358 Sample for Helbrim
+  1483 Ziz Fizziks
+  1487 Deviate Eradication
+  1491 Smart Drinks
+  1918 The Befouled Element
+  3221 Speak with Renferrel
+  3369 In Nightmares
+  5052 Blood Shards of Agamaggan
+  6282 Harpies Threaten
+  6283 Bloodfury Bloodline
+  6284 Arachnophobia
+  6301 Cycle of Rebirth
+  6321 Supplying the Sepulcher
+  6322 Michael Garrett
+  6323 Ride to the Undercity
+  6324 Return to Podrig
+  6381 New Life
+  6393 Elemental War
+  6421 Boulderslide Ravine
+  6461 Blood Feeders
+  6503 Ashenvale Outrunners
+  6542 Report to Kadrak
+  6548 Avenge My Village
+  6562 Trouble in the Deeps
+  6629 Kill Grundig Darkcloud
+  86576 Bloodfury Trinkets
+  91282 A Second Home
+  91920 Wild Eyes
+  91921 Return to Quinn (Again)
+  92422 The Wrath of Rath'mael
+  92706 WANTED: Bruuz
+  95883 The Tortured Soul
+  95884 The Offering Stone
+  95885 The Offering of Blood
+  97250 Wrongly Blamed, Justly Corrected
+  97959 Camping 101: Mining
+  98093 Field to Clear
+  98251 Never Coming Back
+  98252 A Void Path
+  99156 Rear Guard Patrol
+ids without a title (150): 8,354,355,356,358,359,360,362,363,364,365,367,368,369,370,371,374,375,376,380,381,382,383,398,404,405,407,426,427,445,492,499,502,840,842,844,845,848,851,855,858,863,867,869,881,887,888,890,891,892
+
+## talents  [api ok=81 empty=0 not_read=0]
+active spec group: 1
+config: Paladin (config ID 653781, type 4, trees {1100})
+uncommitted staged changes: false
+points: 18 spent / 0 available
+  tree 1100 currency {maxQuantity=18,quantity=0,spent=18,spentInTree=18,traitCurrencyID=3820}
+tree 1100: 51 nodes read (51 ok, 0 unreadable)
+purchased talents: 8 nodes
+  node 105696 rank 1/1: Seal of Command (spellID 20375) [entry 130425]
+  node 105697 rank 1/3: Two-Handed Weapon Specialization (spellID 20111) [entry 130426]
+  node 105699 rank 2/2: Pursuit of Justice (spellID 26022) [entry 130428]
+  node 105700 rank 1/1: Sacred Arbiter (spellID 1311087) [entry 130429]
+  node 105701 rank 3/3: Sanctified Judgement (spellID 1311074) [entry 130430]
+  node 105703 rank 3/3: Conviction (spellID 20117) [entry 130432]
+  node 105705 rank 2/2: Improved Judgement (spellID 25956) [entry 130434]
+  node 105707 rank 5/5: Deflection (spellID 20060) [entry 130436]
+
+## spells  [api ok=60 empty=0 not_read=0]
+skill lines: 4 reported, spells listed: 55, future (not learned, listed separately below): 0, off-spec skipped: 0, unreadable slots: 0
+note: an empty rank text means no rank, or spell data not loaded yet (the API cannot tell)
+### General (skill line 1, 10 listed)
+  Attack(id=6603), Cannibalize(Racial,id=20577), Will of the Forsaken(Racial,id=7744),
+  Armor Proficiency(id=1293712,passive), Block(Passive,id=107,passive), Dodge(Passive,id=81,passive),
+  Languages(id=1293657,passive), Parry(Passive,id=3127,passive),
+  Touch of the Grave(Racial Passive,id=1260189,passive), Underwater Breathing(Racial Passive,id=5227,passive)
+### Retribution (skill line 2, 12 listed)
+  Blessing of Might(Rank 1,id=19740), Blessing of Might(Rank 2,id=19834), Blessing of Might(Rank 3,id=19835),
+  Blessings(flyout=264), Holy Strike(Rank 1,id=679), Holy Strike(Rank 2,id=678), Holy Strike(Rank 3,id=1866),
+  Judgement(id=20271), Retribution Aura(Rank 2,id=10298), Seal of Command(Rank 1,id=20375),
+  Seal of the Crusader(Rank 1,id=21082), Seal of the Crusader(Rank 2,id=20162)
+### Protection (skill line 3, 14 listed)
+  Auras(flyout=270), Blessing of Freedom(id=1044), Blessing of Kings(id=20217),
+  Blessing of Protection(Rank 1,id=1022), Blessing of Protection(Rank 2,id=5599), Devotion Aura(Rank 3,id=643),
+  Divine Protection(Rank 1,id=498), Divine Protection(Rank 2,id=5573), Hammer of Justice(Rank 1,id=853),
+  Hammer of Justice(Rank 2,id=5588), Righteous Fury(id=25780), Seal of Fury(Rank 1,id=1311649),
+  Seal of Fury(Rank 2,id=1311656), Utility Blessings(flyout=273)
+### Holy (skill line 4, 19 listed)
+  Blessing of Wisdom(Rank 1,id=19742), Blessing of Wisdom(Rank 2,id=19850), Consecration(Rank 1,id=26573),
+  Exorcism(Rank 1,id=879), Flash of Light(Rank 1,id=19750), Holy Light(Rank 1,id=635), Holy Light(Rank 2,id=639),
+  Holy Light(Rank 3,id=647), Holy Light(Rank 4,id=1026), Lay on Hands(Rank 1,id=633), Purify(id=1152),
+  Redemption(Rank 1,id=7328), Redemption(Rank 2,id=10322), Seal of Righteousness(Rank 1,id=21084),
+  Seal of Righteousness(Rank 2,id=20287), Seal of Righteousness(Rank 3,id=20288),
+  Seal of Righteousness(Rank 4,id=20289), Sense Undead(id=5502), Turn Undead(Rank 1,id=2878)
+not yet learned: none reported by the spellbook
+
+## pet  [api ok=5 empty=3 not_read=1]
+### Pet unit
+UnitExists('pet'): false
+pet unit: <empty: current pet unit absent; not a statement about owned pets>
+player class (UnitClassBase): PALADIN (classID 2)
+### Pet spellbook
+pet spell count (HasPetSpells): <empty: documented no-pet-spells return [C_SpellBook.HasPetSpells]>
+pet spell traversal: <empty: HasPetSpells reports no current pet spells>
+### Stable (C_StableInfo; slot 1 = current pet, slots 2.. = stable slots)
+at stable master: false
+stable slots (GetNumStableSlots): 0
+stabled pets (GetNumStablePets): 0
+slot 1 (current pet slot): <not_collected: no PetInfo returned: empty slot or stable data not loaded (not at a stable master) [C_StableInfo.GetStablePetInfo]>
+
+## actionbars  [api ok=188 empty=1 not_read=0]
+### Action slots (1-120; only slots holding an action are listed)
+current action bar page (C_ActionBar.GetActionBarPage): 1
+filled slots: 34 (equipmentset 2, item 4, spell 28)
+-- slots 1-12
+slot 1: [spell] Holy Strike (spellID 1866)
+slot 2: [spell] Judgement (spellID 20271)
+slot 3: [spell] Consecration (spellID 26573)
+slot 4: [spell] Exorcism (spellID 879)
+slot 5: [spell] Turn Undead (spellID 2878)
+slot 8: [spell] Cannibalize (spellID 20577)
+slot 11: [item] Refreshing Spring Water (itemID 159)
+slot 12: [item] Forest Mushroom Cap (itemID 4604)
+-- slots 25-36
+slot 25: [spell] Hammer of Justice (spellID 5588)
+slot 26: [spell] Holy Light (spellID 1026)
+slot 27: [spell] Flash of Light (spellID 19750)
+slot 28: [spell] Divine Protection (spellID 5573)
+slot 29: [spell] Seal of Righteousness (spellID 20289)
+slot 30: [spell] Seal of Command (spellID 20375)
+slot 31: [spell] Seal of Fury (spellID 1311656)
+slot 32: [spell] Seal of the Crusader (spellID 20162)
+slot 34: [spell] Blessing of Protection (spellID 5599)
+slot 35: [spell] Lay on Hands (spellID 633)
+slot 36: [item] Hearthstone (itemID 6948)
+-- slots 49-60
+slot 49: [item] Executor's Motivator (itemID 286176)
+slot 55: [spell] Purify (spellID 1152)
+slot 56: [equipmentset] (id Ret)
+slot 57: [equipmentset] (id Tank)
+slot 58: [spell] Blacksmithing (spellID 3100)
+slot 59: [spell] Smelting (spellID 2656)
+slot 60: [spell] Find Minerals (spellID 2580)
+-- slots 61-72
+slot 61: [spell] Blessing of Might (spellID 19835)
+slot 62: [spell] Blessing of Wisdom (spellID 19850)
+slot 63: [spell] Blessing of Kings (spellID 20217)
+slot 65: [spell] Righteous Fury (spellID 25780)
+slot 68: [spell] Blessing of Freedom (spellID 1044)
+slot 69: [spell] Will of the Forsaken (spellID 7744)
+slot 70: [spell] Sense Undead (spellID 5502)
+slot 72: [spell] Redemption (spellID 10322)
+note: slots are grouped by 12 only; the mapping to on-screen bars / stance pages is not verified.
+### Pet bar (GetPetActionInfo, 10 slots; only slots holding an action are listed)
+pet bar: <empty: UnitExists("pet") is false: no pet bar to read [UnitExists]>
+
+## skills  [api ok=29 empty=0 not_read=0]
+skill lines reported: 27
+coverage: complete (27 lines read, 6 groups, no collapsed headers)
+### Class Skills [id 7]
+- Holy 1/1 [id 594 cat 7]
+- Protection 1/1 [id 267 cat 7]
+- Retribution 1/1 [id 184 cat 7]
+### Professions [id 11]
+- Blacksmithing 113/150 [id 2938 cat 11 parent 164]
+- Blacksmithing 113/150 [id 164 cat 11]
+- Mining 126/225 [id 2946 cat 11 parent 186]
+- Mining 126/225 [id 186 cat 11]
+### Secondary Skills [id 9]
+- Cooking 3/75 [id 185 cat 9]
+- Cooking 3/75 [id 2939 cat 9 parent 185]
+### Weapon Skills [id 6]
+- Axes 1/135 [id 44 cat 6]
+- Defense 131/135 [id 95 cat 6]
+  defense modifier shown by the UI (UnitDefenseSkill): 0
+- Maces 109/135 [id 54 cat 6]
+- Two-Handed Axes 133/135 [id 172 cat 6]
+- Two-Handed Maces 89/135 [id 160 cat 6]
+- Unarmed 20/135 [id 162 cat 6]
+### Armor Proficiencies [id 8]
+- Cloth 1/1 [id 415 cat 8]
+- Leather 1/1 [id 414 cat 8]
+- Mail 1/1 [id 413 cat 8]
+- Shield 1/1 [id 433 cat 8]
+### Languages [id 10]
+- Language: Gutterspeak 300/300 [id 673 cat 10]
+- Language: Orcish 300/300 [id 109 cat 10]
+
+## reputation  [api ok=32 empty=1 not_read=0]
+rows: 14
+sort type: 2 (Character)
+legacy reputations shown: true
+watched: <empty: no faction is watched (declared nilable return) [C_Reputation.GetWatchedFactionData]>
+counts: 11 factions, 3 headers, 0 unreadable rows
+completeness: no collapsed header among the rows read
+### Horde (67)
+- Darkspear Trolls (530): standing=5 (Friendly) progress=1792/6000 value=4792 range=3000..9000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+- Orgrimmar (76): standing=5 (Friendly) progress=3412/6000 value=6412 range=3000..9000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+- Thunder Bluff (81): standing=5 (Friendly) progress=607/6000 value=3607 range=3000..9000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+- Undercity (68): standing=6 (Honored) progress=5238/12000 value=14238 range=9000..21000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+### Steamwheedle Cartel (169)
+- Booty Bay (21): standing=4 (Neutral) progress=1853/3000 value=1853 range=0..3000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+- Everlook (577): standing=4 (Neutral) progress=1853/3000 value=1853 range=0..3000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+- Gadgetzan (369): standing=4 (Neutral) progress=1853/3000 value=1853 range=0..3000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+- Powderfuse (2827): standing=4 (Neutral) progress=1853/3000 value=1853 range=0..3000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+- Ratchet (470): standing=5 (Friendly) progress=207/6000 value=3207 range=3000..9000 watched=no atWar=no(toggle=yes) active=yes accountWide=no
+### Other (0)
+- Argent Dawn (529): standing=4 (Neutral) progress=1050/3000 value=1050 range=0..3000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+- Earthen Ring (2787): standing=4 (Neutral) progress=300/3000 value=300 range=0..3000 watched=no atWar=no(toggle=no) active=yes accountWide=no
+
+## currency  [api ok=8 empty=1 not_read=0]
+currency list: <empty: GetCurrencyListSize returned 0 [C_CurrencyInfo.GetCurrencyListSize]>
+### PvP / honor (stat APIs, not entries of the currency list)
+honor: 0
+honor max: 5500
+honor level: 1
+lifetime honorable kills: 0, max PvP rank id 0
+session honorable/dishonorable kills: 0/0
+yesterday honorable/dishonorable kills: 0/0
+PvP rank (faction 2800): level 0/14, points 0/750
+
+## auras  [api ok=5 empty=2 not_read=0]
+(player buffs/debuffs; remaining = expirationTime - GetTime(); fields can be secret in combat)
+### Player buffs (HELPFUL): 3
+- Find Minerals (2580) | no expiry | source=player
+- Blessing of Might (19835) | 45m 16s left of 1h 0m | source=player | dispel=Magic
+- Retribution Aura (10298) | no expiry | source=player
+### Player debuffs (HARMFUL): <empty: index 1 returned nil: no HARMFUL auras on player [C_UnitAuras.GetAuraDataByIndex]>
+### Pet auras: <empty: UnitExists("pet") is false: no pet unit [UnitExists]>
+
+## flightpaths  [api ok=0 empty=0 not_read=1]
+<not_collected: no snapshot stored yet; open a flight master map once>
+
+## addons  [api ok=64 empty=0 not_read=0]
+installed: 24 | running: 15 (third-party 15, Blizzard_* 0 collapsed) | not running: 9
+not running by reason (client codes, listed addons omitted): DEMAND_LOADED=4, DISABLED=1, unspecified=4
+### running third-party addons (15)
+- DBM-Core | "<DBM Core> Main Core" | v12.1.20
+- DBM-StatusBarTimers | "<DBM Core> Status Bar Timers" | v12.1.20
+- DBM-VPVEM | "<DBM Media> Voicepack VEM" | va8e9f0e
+- Auctionator | v342
+- !BugGrabber | "BugGrabber" | v12.1.1
+- BugSack | v12.1.9
+- ForeverDungeonJournal | "DungeonJournal" | v1.7.2
+- ForeverCharacterExport | "Forever Character Export" | v0.3.0 | (this addon)
+- Leatrix_Maps | "Leatrix Maps" | v1.60.28
+- Leatrix_Plus | "Leatrix Plus" | v1.60.29
+- Pawn | v2.14.1
+- Questie | "Questie v12.6.3" | v12.6.3
+- QuestieDB | v1.0.12
+- QuestieTrace | v1.9.0
+- XToLevelF | "XToLevel Forever" | vForever 1.10
+
+## coverage
+Per-section API results (ok/empty/not_collected/unsupported/restricted/error):
+- character: 65/2/0/0/2/0
+- equipment: 139/0/2/0/0/0
+- bags: 145/0/0/0/0/0
+- bank: 0/0/1/0/0/0
+- quests: 104/1/0/0/0/0
+- talents: 81/0/0/0/0/0
+- spells: 60/0/0/0/0/0
+- pet: 5/3/1/0/0/0
+- actionbars: 188/1/0/0/0/0
+- skills: 29/0/0/0/0/0
+- reputation: 32/1/0/0/0/0
+- currency: 8/1/0/0/0/0
+- auras: 5/2/0/0/0/0
+- flightpaths: 0/0/1/0/0/0
+- addons: 64/0/0/0/0/0
+Unread values (status, API, reason):
+- character: empty GetGuildInfo - IsInGuild returned false
+- character: empty GetXPExhaustion - nil return; the default XP bar treats this as no rested XP
+- character: restricted UnitHealth - API returned a secret or inaccessible value
+- character: restricted UnitPower - API returned a secret or inaccessible value
+- equipment: not_collected GetInventoryItemQuality - API returned no value; readiness/availability unresolved
+- equipment: not_collected GetInventoryItemTexture - API returned no value; readiness/availability unresolved
+- bank: not_collected - - no snapshot stored yet; open the bank once
+- quests: empty C_QuestLog.GetQuestObjectives - API returned an empty objective list for this quest
+- pet: empty - - HasPetSpells reports no current pet spells
+- pet: empty - - current pet unit absent; not a statement about owned pets
+- pet: empty C_SpellBook.HasPetSpells - documented no-pet-spells return
+- pet: not_collected C_StableInfo.GetStablePetInfo - no PetInfo returned: empty slot or stable data not loaded (not at a stable master)
+- actionbars: empty UnitExists - UnitExists("pet") is false: no pet bar to read
+- reputation: empty C_Reputation.GetWatchedFactionData - no faction is watched (declared nilable return)
+- currency: empty C_CurrencyInfo.GetCurrencyListSize - GetCurrencyListSize returned 0
+- auras: empty C_UnitAuras.GetAuraDataByIndex - index 1 returned nil: no HARMFUL auras on player
+- auras: empty UnitExists - UnitExists("pet") is false: no pet unit
+- flightpaths: not_collected - - no snapshot stored yet; open a flight master map once
+Unknowable from the client (expected gaps):
+- the client cannot list quests you have not accepted or that are available from NPCs (needs a quest database)
+- auction/vendor prices and item market value (no client-side source)
+- other characters, account-wide or server-side data
+- talent/quest/item meaning beyond what the client returns (no guide data bundled)
+- keybinds, macro bodies and UI settings are not collected by this addon (action slot contents are)
+Needs a player action first:
+- bank: open the bank once; the contents are then saved and shown as a stale snapshot
+- flight paths: open a flight master's map once; known nodes are then saved as a stale snapshot
+- played time: arrives by event after login; shown as stale when older than this session
+# end
