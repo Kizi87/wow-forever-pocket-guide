@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pocket-guide.local/schema/class.schema.json",
+  "title": "Class guide",
+  "type": "object",
+  "required": ["id", "class", "facts"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z-]+$" },
+    "class": { "type": "string" },
+    "facts": { "$ref": "meta.schema.json#/$defs/facts" },
+    "rotations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "allOf": [{ "$ref": "meta.schema.json#/$defs/meta" }],
+        "required": ["id", "spec", "context", "steps"],
+        "properties": {
+          "id": { "type": "string" },
+          "spec": { "type": "string" },
+          "context": { "type": "string" },
+          "steps": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+          "sources": true, "confidence": true, "checkedOn": true, "conflicts": true, "notes": true
+        },
+        "additionalProperties": false
+      }
+    },
+    "macros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "allOf": [{ "$ref": "meta.schema.json#/$defs/meta" }],
+        "required": ["id", "name", "body"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "body": { "type": "string" },
+          "sources": true, "confidence": true, "checkedOn": true, "conflicts": true, "notes": true
+        },
+        "additionalProperties": false
+      }
+    },
+    "talentPlans": { "$ref": "meta.schema.json#/$defs/facts" }
+  }
+}

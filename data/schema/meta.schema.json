@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pocket-guide.local/schema/meta.schema.json",
+  "title": "Fact provenance shared by every game fact",
+  "$defs": {
+    "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "source": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "checkedOn": { "$ref": "#/$defs/date" },
+        "note": { "type": "string" }
+      }
+    },
+    "confidence": {
+      "description": "confirmed = official Blizzard source (announcement, patch notes). in-game-verified = Chris saw it in game; beats everything else.",
+      "enum": ["confirmed", "in-game-verified", "multi-source", "single-source", "conflicting", "classic-only"]
+    },
+    "conflict": {
+      "type": "object",
+      "required": ["claim", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "claim": { "type": "string", "minLength": 1 },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "required": ["sources", "confidence", "checkedOn"],
+      "properties": {
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "checkedOn": { "$ref": "#/$defs/date" },
+        "conflicts": { "type": "array", "items": { "$ref": "#/$defs/conflict" } },
+        "notes": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "confidence": { "const": "multi-source" } } },
+          "then": { "properties": { "sources": { "minItems": 2 } } }
+        },
+        {
+          "if": { "properties": { "confidence": { "const": "conflicting" } } },
+          "then": { "required": ["conflicts"], "properties": { "conflicts": { "minItems": 1 } } }
+        }
+      ]
+    },
+    "fact": {
+      "description": "One game fact: a claim plus its provenance.",
+      "type": "object",
+      "allOf": [{ "$ref": "#/$defs/meta" }],
+      "required": ["id", "claim"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "claim": { "type": "string", "minLength": 1 },
+        "topic": { "type": "string" },
+        "sources": true, "confidence": true, "checkedOn": true, "conflicts": true, "notes": true
+      },
+      "additionalProperties": false
+    },
+    "facts": { "type": "array", "items": { "$ref": "#/$defs/fact" } }
+  }
+}

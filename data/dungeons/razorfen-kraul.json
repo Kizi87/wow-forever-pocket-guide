@@ -1,0 +1,111 @@
+{
+  "$schema": "../schema/dungeon.schema.json",
+  "id": "razorfen-kraul",
+  "name": "Razorfen Kraul",
+  "ranges": [
+    {
+      "label": "In-game group finder",
+      "min": 29,
+      "max": 38,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "conflicting",
+      "conflicts": [
+        {
+          "claim": "24+",
+          "sources": [
+            {
+              "name": "Planning notes, 8–9 Nov 2026",
+              "note": "original sites not recorded"
+            }
+          ]
+        },
+        {
+          "claim": "26–34",
+          "sources": [
+            {
+              "name": "Planning notes, 8–9 Nov 2026",
+              "note": "original sites not recorded"
+            }
+          ]
+        }
+      ],
+      "notes": "If the group finder shows 29–38 in game, record it as in-game-verified.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "facts": [
+    {
+      "id": "difficulty",
+      "claim": "Difficulty rated 5/10 (Dalaran 6/10 on the same site).",
+      "sources": [
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "single-source",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "bosses": [
+    {
+      "id": "jargba",
+      "claim": "Death Speaker Jargba Mind Controls: interrupt or CC his adds and focus him.",
+      "sources": [
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "agathelos",
+      "claim": "Agathelos has a big enrage.",
+      "sources": [
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "totems",
+      "claim": "Lots of casters, totems and pets: kill totems first.",
+      "sources": [
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "knownIssues": [
+    {
+      "id": "roogug-cauldron",
+      "claim": "Known bug since launch: the cauldron near Roogug can trap players.",
+      "sources": [
+        {
+          "name": "Nov 5 known-issues list"
+        }
+      ],
+      "confidence": "single-source",
+      "checkedOn": "2026-11-09"
+    }
+  ]
+}

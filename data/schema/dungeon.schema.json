@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pocket-guide.local/schema/dungeon.schema.json",
+  "title": "Dungeon card",
+  "type": "object",
+  "required": ["id", "name", "ranges"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "ranges": {
+      "description": "Every reported level range, each with its own provenance. Conflicting ranges are all kept.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "allOf": [{ "$ref": "meta.schema.json#/$defs/meta" }],
+        "required": ["min", "max"],
+        "properties": {
+          "label": { "type": "string" },
+          "min": { "type": "integer", "minimum": 1, "maximum": 60 },
+          "max": { "type": "integer", "minimum": 1, "maximum": 60 },
+          "sources": true, "confidence": true, "checkedOn": true, "conflicts": true, "notes": true
+        },
+        "additionalProperties": false
+      }
+    },
+    "facts": { "$ref": "meta.schema.json#/$defs/facts", "description": "General facts (new in Forever, territory, difficulty, …)" },
+    "access": { "$ref": "meta.schema.json#/$defs/facts" },
+    "quests": { "$ref": "meta.schema.json#/$defs/facts" },
+    "bosses": { "$ref": "meta.schema.json#/$defs/facts" },
+    "knownIssues": { "$ref": "meta.schema.json#/$defs/facts" }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/dungeon.schema.json",
+  "id": "excavation-site-wetlands",
+  "name": "Excavation Site: Wetlands",
+  "ranges": [
+    {
+      "min": 24,
+      "max": 29,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "facts": [
+    {
+      "id": "new-alliance-territory",
+      "claim": "New in Forever; in Alliance territory.",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ]
+}

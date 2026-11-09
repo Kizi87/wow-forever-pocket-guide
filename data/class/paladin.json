@@ -1,0 +1,382 @@
+{
+  "$schema": "../schema/class.schema.json",
+  "id": "paladin",
+  "class": "Paladin",
+  "facts": [
+    {
+      "id": "holy-strike-level-6",
+      "topic": "Forever changes",
+      "claim": "Every paladin learns Holy Strike at level 6: instant Holy damage based on weapon damage.",
+      "sources": [
+        {
+          "name": "mmohuts"
+        },
+        {
+          "name": "classicwowforever.com"
+        },
+        {
+          "name": "conquestcapped"
+        },
+        {
+          "name": "teamoverpowered"
+        },
+        {
+          "name": "wowforeverleveling"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "seal-of-fury",
+      "topic": "Forever changes",
+      "claim": "Seal of Fury at level 10: tank seal, flat Holy damage per swing, absorb shield with a shield equipped; Judgement of it taunts (10 yd).",
+      "sources": [
+        {
+          "name": "mmohuts"
+        },
+        {
+          "name": "wow4ever.quest"
+        },
+        {
+          "name": "conquestcapped"
+        },
+        {
+          "name": "lfcarry"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "consecration-baseline-20",
+      "topic": "Forever changes",
+      "claim": "Consecration is baseline at level 20. It hits the first 4 enemies hard and others very lightly.",
+      "sources": [
+        {
+          "name": "conquestcapped"
+        },
+        {
+          "name": "teamoverpowered"
+        },
+        {
+          "name": "mmonerds"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "blessing-of-kings-baseline",
+      "topic": "Forever changes",
+      "claim": "Blessing of Kings is baseline from level 20.",
+      "sources": [
+        {
+          "name": "conquestcapped"
+        },
+        {
+          "name": "wowforeverleveling"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "judgement-keeps-seal",
+      "topic": "Forever changes",
+      "claim": "Judgement no longer consumes your Seal.",
+      "sources": [
+        {
+          "name": "classicwow.gg"
+        },
+        {
+          "name": "mmonerds"
+        },
+        {
+          "name": "teamoverpowered"
+        },
+        {
+          "name": "conquestcapped"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "sacred-arbiter",
+      "topic": "Talents",
+      "claim": "Sacred Arbiter (16-point tier): Holy Strike deals 20% more damage and refreshes all Judgement effects on the target, including other paladins'.",
+      "sources": [
+        {
+          "name": "classicwow.gg"
+        },
+        {
+          "name": "classicwowforever.com"
+        },
+        {
+          "name": "mmonerds"
+        },
+        {
+          "name": "teamoverpowered"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "seal-of-command",
+      "topic": "Talents",
+      "claim": "Seal of Command: chance to deal 70% weapon damage as Holy; best with a slow two-hander. Judgement of Command does double damage to stunned targets.",
+      "sources": [
+        {
+          "name": "wowforever.be"
+        },
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "zockify"
+        },
+        {
+          "name": "wowforeverleveling"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "vengeance-needs-soc",
+      "topic": "Talents",
+      "claim": "Vengeance requires Seal of Command (since 2 Nov); up to 5 stacks for 30 s.",
+      "sources": [
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "wowforeverleveling"
+        },
+        {
+          "name": "lfcarry"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "unsealed-wrath",
+      "topic": "Talents",
+      "claim": "Unsealed Wrath (31-point, after Repentance): melee stores a copy of the active Seal, up to 3 stacks for 15 s. An attack under a different Seal consumes the stacks, each with the stored Seal's normal proc chance.",
+      "sources": [
+        {
+          "name": "zockify"
+        },
+        {
+          "name": "classicwowforever.com"
+        },
+        {
+          "name": "mmojugg"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "no-baseline-seal-twisting",
+      "topic": "Forever changes",
+      "claim": "Seal twisting is no longer baseline; the Twist of Light talent brings back a controlled version.",
+      "sources": [
+        {
+          "name": "mmonerds"
+        },
+        {
+          "name": "mmohuts"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "wolfsbane-chain",
+      "topic": "Undead paladin weapon chain",
+      "claim": "Wolfsbane chain: Diplomatic Incident (Danitha Morr, Bandarion Keep) → Trevan Rol steps → A Moon-Kissed Blade → An Underrated Talent / Ott's Masterwork (Ott, Tarren Mill) → The Moonsilver Blade → Old Fire-Eye (level 25 elite worgen, Silverpine) → Wolfsbane.",
+      "sources": [
+        {
+          "name": "wowdee"
+        },
+        {
+          "name": "conquestcapped"
+        },
+        {
+          "name": "chaosboost"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "moon-kissed-blade",
+      "topic": "Undead paladin weapon chain",
+      "claim": "A Moon-Kissed Blade (95036): Undead-only Horde paladin quest, level 25 (requires 20). Needs Whitestone Oak Lumber (Deadmines, Goblin Woodcarvers near Sneed), Enchanted Silver Ingot (Shadowfang Keep) and Purified Kor Gem (Blackfathom Deeps). Turn in to Trevan Rol near the Sepulcher (~43.3, 41.0 Silverpine).",
+      "sources": [
+        {
+          "name": "wowhead Forever"
+        },
+        {
+          "name": "metaforge"
+        },
+        {
+          "name": "hyjal.cc"
+        },
+        {
+          "name": "forever-codex"
+        },
+        {
+          "name": "expcarry"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "moon-kissed-blade-xp",
+      "topic": "Undead paladin weapon chain",
+      "claim": "A Moon-Kissed Blade XP reward: 2,500 (2.5× normal).",
+      "sources": [
+        {
+          "name": "forever-codex"
+        }
+      ],
+      "confidence": "conflicting",
+      "conflicts": [
+        {
+          "claim": "1,750 base XP",
+          "sources": [
+            {
+              "name": "hyjal.cc"
+            }
+          ]
+        }
+      ],
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "wolfsbane-stats",
+      "topic": "Undead paladin weapon chain",
+      "claim": "Wolfsbane: two-handed sword, 25.59 DPS, +9 Stamina, +10 Intellect; proc 39–59 Holy, tripled against wolves and worgen. Swing speed not found.",
+      "sources": [
+        {
+          "name": "buyboost"
+        }
+      ],
+      "confidence": "single-source",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "rotations": [
+    {
+      "id": "ret-levelling",
+      "spec": "Retribution",
+      "context": "Levelling and dungeons",
+      "steps": [
+        "Pre-pull Seal of the Crusader → Judgement (debuff) → switch to Seal of Command and keep it.",
+        "Holy Strike and Judgement on cooldown. Holy Strike keeps Judgement effects refreshed (Sacred Arbiter).",
+        "Hammer of Justice → Judgement for double Judgement of Command damage.",
+        "Consecration on 3+ targets (in groups, once the tank has threat).",
+        "Exorcism on undead and demons.",
+        "In groups: Righteous Fury off. Blessing of Might on melee, Wisdom on healer/casters, Kings otherwise.",
+        "Short trash: skip Crusader, go straight to Command."
+      ],
+      "sources": [
+        {
+          "name": "mobalytics",
+          "note": "two guides"
+        },
+        {
+          "name": "wowforever.be"
+        },
+        {
+          "name": "maxroll"
+        },
+        {
+          "name": "zockify"
+        },
+        {
+          "name": "mmonster rotation trainer"
+        }
+      ],
+      "confidence": "multi-source",
+      "notes": "Minority view (maxroll): alternate Command and Righteousness by swing timing.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "macros": [
+    {
+      "id": "judgement-holy-strike",
+      "name": "Judgement + Holy Strike",
+      "body": "/cast Judgement\n/cast Holy Strike",
+      "sources": [
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "wowforever.be"
+        },
+        {
+          "name": "zockify"
+        }
+      ],
+      "confidence": "multi-source",
+      "notes": "From the levelling rotation guides; not tested in game yet.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "talentPlans": [
+    {
+      "id": "ret-talent-order-10-30",
+      "claim": "Guides disagree on the Ret talent order for levels 10–30: Deflection-first vs Benediction-first, and Sacred Arbiter at 25, 26 or 28.",
+      "sources": [
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "mmojugg"
+        },
+        {
+          "name": "wowforeverbuilds"
+        }
+      ],
+      "confidence": "conflicting",
+      "conflicts": [
+        {
+          "claim": "Deflection first",
+          "sources": [
+            {
+              "name": "mobalytics, mmojugg or wowforeverbuilds",
+              "note": "which guide said this was not recorded"
+            }
+          ]
+        },
+        {
+          "claim": "Benediction first",
+          "sources": [
+            {
+              "name": "mobalytics, mmojugg or wowforeverbuilds",
+              "note": "which guide said this was not recorded"
+            }
+          ]
+        },
+        {
+          "claim": "Sacred Arbiter at 25, 26 or 28",
+          "sources": [
+            {
+              "name": "mobalytics, mmojugg or wowforeverbuilds",
+              "note": "which guide said this was not recorded"
+            }
+          ]
+        }
+      ],
+      "notes": "Kiz already has 21 points spent, so this only matters for a respec. Re-check which guide says what before relying on it.",
+      "checkedOn": "2026-11-09"
+    }
+  ]
+}

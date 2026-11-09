@@ -1,0 +1,78 @@
+{
+  "$schema": "../schema/dungeon.schema.json",
+  "id": "scarlet-monastery",
+  "name": "Scarlet Monastery",
+  "ranges": [
+    {
+      "label": "Graveyard",
+      "min": 30,
+      "max": 38,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "label": "Library",
+      "min": 33,
+      "max": 41,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "label": "Armory",
+      "min": 36,
+      "max": 44,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "label": "Cathedral",
+      "min": 38,
+      "max": 46,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "access": [
+    {
+      "id": "entry-level",
+      "claim": "Entry from level 20.",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "$schema": "../schema/dungeon.schema.json",
+  "id": "blackfathom-deeps",
+  "name": "Blackfathom Deeps",
+  "ranges": [
+    {
+      "label": "Reported range",
+      "min": 22,
+      "max": 28,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "conflicting",
+      "conflicts": [
+        {
+          "claim": "24–32",
+          "sources": [
+            {
+              "name": "Planning notes, 8–9 Nov 2026",
+              "note": "original sites not recorded"
+            }
+          ]
+        }
+      ],
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "label": "Reported range",
+      "min": 24,
+      "max": 32,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "conflicting",
+      "conflicts": [
+        {
+          "claim": "22–28",
+          "sources": [
+            {
+              "name": "Planning notes, 8–9 Nov 2026",
+              "note": "original sites not recorded"
+            }
+          ]
+        }
+      ],
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "facts": [
+    {
+      "id": "layout-unchanged-loot-revamped",
+      "claim": "Layout unchanged from Classic; loot revamped.",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "quests": [
+    {
+      "id": "corrupted-kor-gem",
+      "claim": "Corrupted Kor Gem drops from Tide Priestesses/Oracles outside and Sea Witches inside.",
+      "sources": [
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "single-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "damp-note",
+      "claim": "Damp Note from Tide Priestesses starts Allegiance to the Old Gods (kill Lorgus Jett); needs The Essence of Aku'Mai in your log. Known bug: not every party member can loot it.",
+      "sources": [
+        {
+          "name": "mmonster"
+        },
+        {
+          "name": "zockify"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "blackfathom-villainy",
+      "claim": "Argent Guard Thaelrid inside gives Horde Blackfathom Villainy; turn in to Bashana Runetotem, Thunder Bluff.",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "fathom-core-baron-aquanis",
+      "claim": "The Fathom Core tablet (under the walkway to Kelris) completes Amongst the Ruins and summons Baron Aquanis, who drops the Strange Water Globe (reported ~93–100%) that starts Baron Aquanis.",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "bosses": [
+    {
+      "id": "kelris",
+      "claim": "Twilight Lord Kelris: Sleep (5 yd) and Mind Blast. Light the braziers one at a time; each spawns a wave.",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked. Will of the Forsaken breaks Sleep (Undead racial).",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "akumai",
+      "claim": "Aku'mai: Poison Cloud ticks 527 Nature (was 50) — move out. Frenzied Rage: +75% attack speed.",
+      "sources": [
+        {
+          "name": "conquestcapped"
+        },
+        {
+          "name": "expcarry"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "martyrs-chain",
+      "claim": "Martyr's Chain (mail chest, +9 Str, +9 Sta, 420 Holy damage when you die) drops in BFD. Which boss drops it is not confirmed.",
+      "sources": [
+        {
+          "name": "Chris (player report)"
+        }
+      ],
+      "confidence": "single-source",
+      "checkedOn": "2026-11-08"
+    }
+  ]
+}

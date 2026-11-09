@@ -1,0 +1,20 @@
+{
+  "$schema": "../schema/dungeon.schema.json",
+  "id": "razorfen-downs",
+  "name": "Razorfen Downs",
+  "ranges": [
+    {
+      "min": 37,
+      "max": 46,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ]
+}

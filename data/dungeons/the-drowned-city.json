@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema/dungeon.schema.json",
+  "id": "the-drowned-city",
+  "name": "The Drowned City",
+  "ranges": [
+    {
+      "min": 35,
+      "max": 40,
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "facts": [
+    {
+      "id": "new-in-forever",
+      "claim": "New dungeon in WoW Forever.",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ]
+}

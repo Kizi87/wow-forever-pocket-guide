@@ -1,0 +1,247 @@
+{
+  "$schema": "../schema/dungeon.schema.json",
+  "id": "city-of-dalaran",
+  "name": "City of Dalaran",
+  "ranges": [
+    {
+      "label": "Blizzard announcement",
+      "min": 28,
+      "max": 33,
+      "sources": [
+        {
+          "name": "Blizzard announcement"
+        }
+      ],
+      "confidence": "confirmed",
+      "conflicts": [
+        {
+          "claim": "28–35",
+          "sources": [
+            {
+              "name": "Planning notes, 8–9 Nov 2026",
+              "note": "original sites not recorded"
+            }
+          ]
+        },
+        {
+          "claim": "28–30",
+          "sources": [
+            {
+              "name": "Planning notes, 8–9 Nov 2026",
+              "note": "original sites not recorded"
+            }
+          ]
+        }
+      ],
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "facts": [
+    {
+      "id": "new-in-forever",
+      "claim": "New dungeon in WoW Forever.",
+      "sources": [
+        {
+          "name": "Blizzard announcement"
+        }
+      ],
+      "confidence": "confirmed",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "access": [
+    {
+      "id": "sewer-key",
+      "claim": "Horde need the Dalaran Sewer Key. Only one group member needs it.",
+      "sources": [
+        {
+          "name": "Icy Veins"
+        },
+        {
+          "name": "Method"
+        },
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "games.gg"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "chain-start",
+      "claim": "The key chain starts with Magus Wordeen Voidglare, Tarren Mill (~61.6, 20.8 Hillsbrad).",
+      "sources": [
+        {
+          "name": "warcraft.wiki.gg"
+        },
+        {
+          "name": "wowhead Forever"
+        },
+        {
+          "name": "kovarel"
+        },
+        {
+          "name": "foreverchanges"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "key-to-the-city-level",
+      "claim": "Key to the City requires level 30 (quest level 33).",
+      "sources": [
+        {
+          "name": "warcraft.wiki.gg"
+        },
+        {
+          "name": "foreverchanges"
+        },
+        {
+          "name": "kovarel"
+        },
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "grimy-key-location",
+      "claim": "Key to the City: Grimy Key from the Warden's Footlocker, Lordamere Internment Camp (~16.4, 89.3 on the Alterac Mountains map).",
+      "sources": [
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "single-source",
+      "conflicts": [
+        {
+          "claim": "Objective area ~23.1, 26.6 on the Hillsbrad map (possibly the same spot in a different map frame)",
+          "sources": [
+            {
+              "name": "foreverdb"
+            }
+          ]
+        }
+      ],
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "chain-order",
+      "claim": "Chain ends with Heart of Disruption from the Image of Archmage Modera; the key is given on accepting it. The steps before it are disputed.",
+      "sources": [
+        {
+          "name": "Method"
+        },
+        {
+          "name": "wowhandbook"
+        }
+      ],
+      "confidence": "conflicting",
+      "conflicts": [
+        {
+          "claim": "Key to the City (+ optional Prison Break In, Stone Tokens) → Dalaran Patrols (+ optional Bracers of Binding)",
+          "sources": [
+            {
+              "name": "Method"
+            }
+          ]
+        },
+        {
+          "claim": "Prison Break In → Dalaran Patrols → Blood in the Streets",
+          "sources": [
+            {
+              "name": "wowhandbook"
+            }
+          ]
+        }
+      ],
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "modera-location",
+      "claim": "Image of Archmage Modera at ~68.4, 45.4 (Silverpine map).",
+      "sources": [
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "single-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "entrance",
+      "claim": "Entrance: a sewer pipe on Dalaran's north-west wall, onto Lordamere Lake (~8.8, 59.6 Alterac map / ~69.3, 45.55 Silverpine map).",
+      "sources": [
+        {
+          "name": "mobalytics"
+        },
+        {
+          "name": "games.gg"
+        },
+        {
+          "name": "blizzplanet"
+        }
+      ],
+      "confidence": "multi-source",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "avoid-streets",
+      "claim": "Don't go into the city streets as Horde: max-level guards.",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "id": "guards-friendly-after",
+      "claim": "Completing Heart of Disruption makes Dalaran guards non-hostile to Horde.",
+      "sources": [
+        {
+          "name": "Warcraft Tavern"
+        }
+      ],
+      "confidence": "single-source",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "quests": [
+    {
+      "id": "dungeon-quests",
+      "claim": "Dungeon quests available from level 24: Source of Power (Doctor Martin Felben, Undercity), The Grave Knight (Melisara, Hillsbrad), Opportunistic Education (Rexxie Copperclutch, inside).",
+      "sources": [
+        {
+          "name": "Planning notes, 8–9 Nov 2026",
+          "note": "original sites not recorded"
+        }
+      ],
+      "confidence": "single-source",
+      "notes": "Planning notes call this multi-source but did not record the sites; treated as single-source until re-checked.",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "bosses": [
+    {
+      "id": "shade-of-the-archmage",
+      "claim": "Shade of the Archmage can reset and vanish if pulled out of his room.",
+      "sources": [
+        {
+          "name": "mmonster"
+        }
+      ],
+      "confidence": "single-source",
+      "checkedOn": "2026-11-09"
+    }
+  ]
+}

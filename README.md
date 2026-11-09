@@ -39,3 +39,19 @@ When the game changes or you learn something new, tell Claude Code and ask it to
 The facts in `docs/knowledge/` were gathered from websites in the first week after launch. Several are single-source or conflicting and are labelled as such. The game itself is the final word.
 
 World of Warcraft is a trademark of Blizzard Entertainment. Personal fan project, not affiliated with Blizzard.
+
+## Running it (M1)
+
+Needs Node 24+.
+
+```bash
+npm install
+npm run dev          # http://localhost:5173 on this PC
+npm run dev:phone    # same, plus a Network URL your phone can open on the same Wi-Fi
+npm test             # parser, diff, backup and data-schema tests
+npm run build        # production build into dist/
+```
+
+Pushing to `main` runs `.github/workflows/deploy.yml` (tests, build, deploy to GitHub Pages). One-off setup: repo **Settings → Pages → Source: GitHub Actions**. GitHub Pages on a private repo needs a paid plan, and the published site is public either way. The site holds no character data; your snapshots stay in each browser's own storage.
+
+Game data lives in `data/` (schemas in `data/schema/`). Every fact needs `sources`, `confidence` and `checkedOn`; `npm test` fails otherwise.
